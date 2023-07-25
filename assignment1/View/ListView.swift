@@ -13,7 +13,17 @@ import SwiftUI
 
 struct ListView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List(teams){
+                team in
+                NavigationLink{
+                    DetailView(team: team)
+                } label: {
+                    TeamCard(team: team)
+                }
+                .navigationTitle("SSET Contact 📒")
+            }
+        }
     }
 }
 

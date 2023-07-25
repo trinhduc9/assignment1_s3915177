@@ -24,9 +24,9 @@ struct Team: Identifiable, Codable{
     var roster: Array<Player>
     
     var imageName: String
-        var image: Image {
-            Image(imageName)
-        }
+    var image: Image {
+        Image(imageName)
+    }
     
     var coordinates: Coordinates
         

@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "teamName": Golden State Warriors,
+        "stadium": {
+            "stadiumName": "Chase Center"
+            "address": "1 Warriors Way, San Francisco, CA 94158, United States"
+        },
+        "shortDes": ,
+        "fullDes": ,
+        "achievement": [1947, 1956, 1975, 2015, 2017, 2018, 2022] ,
+        "roster": ,
+        "imageName": "GSWlogo",
+        "coordinates": {},
+    }
+]
