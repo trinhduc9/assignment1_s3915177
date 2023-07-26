@@ -14,7 +14,6 @@
 import SwiftUI
 
 struct WelcomeView: View {
-    // Replace with your actual app author information
     let authorName = "Trinh Van Minh Duc"
     let studentID = "123456"
     let program = "Computer Science"
@@ -26,13 +25,10 @@ struct WelcomeView: View {
                             .aspectRatio(contentMode: .fill)
                             .edgesIgnoringSafeArea(.all)
             VStack {
-                // Logo image
                 Image("logo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 200, height: 200)
-                
-                // App name and slogan
                 Text("NBA Info")
                     .font(.title)
                     .fontWeight(.bold)
@@ -40,7 +36,6 @@ struct WelcomeView: View {
                     .font(.subheadline)
                     .foregroundColor(.gray)
                 Spacer()
-                // Button to navigate to the navigation list view
                 NavigationLink(destination: ListView()) {
                     Text("Team List")
                         .padding()
@@ -50,12 +45,7 @@ struct WelcomeView: View {
                 }
                 .padding()
                 
-                
-                // Info icon button to display the app author information
                 Button(action: {
-                    // Show the pop-up view with the app author information here
-                    // You can use a custom sheet or popover to display the information.
-                    // For simplicity, I'll show an alert as a pop-up in this example.
                     let authorInfo = "Author: \(authorName)\nStudent ID: \(studentID)\nProgram: \(program)"
                     showAlert(title: "App Author", message: authorInfo)
                 }) {
