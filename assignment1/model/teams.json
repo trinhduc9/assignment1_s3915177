@@ -18,14 +18,14 @@
     },
     {
         "id": 2,
-        "teamName": "",
+        "teamName": "Boston Celtics",
         "stadium": {
             "stadiumName": "",
             "address": ", United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [1957, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1968, 1969, 1974, 1976, 1981, 1984, 1986, 2008] ,
         "roster": [],
         "imageName": "",
         "coordinates": {}
