@@ -10,7 +10,6 @@
  Acknowledgement: Acknowledge the resources that you use here.
 */
 
-///
 import SwiftUI
 
 struct ContentView: View {

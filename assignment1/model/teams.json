@@ -1,16 +1,440 @@
 [
     {
         "id": 1,
-        "teamName": Golden State Warriors,
+        "teamName": "Golden State Warriors",
         "stadium": {
-            "stadiumName": "Chase Center"
+            "stadiumName": "Chase Center",
             "address": "1 Warriors Way, San Francisco, CA 94158, United States"
         },
-        "shortDes": ,
-        "fullDes": ,
+        "shortDes": "4x times NBA championo in the last 10 years",
+        "fullDes": "This is a long description",
         "achievement": [1947, 1956, 1975, 2015, 2017, 2018, 2022] ,
-        "roster": ,
+        "roster": [],
         "imageName": "GSWlogo",
-        "coordinates": {},
+        "coordinates": {
+            "latitude": 37.7680381,
+            "longtitude": -122.387375112241
+        }
+    },
+    {
+        "id": 3,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    }
+    ,
+    {
+        "id": 2,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 3,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 4,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 5,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 6,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 7,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 8,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 9,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 10,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 11,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 12,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 13,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 14,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 15,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 16,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 17,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 18,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 19,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 20,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 21,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 22,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 23,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 24,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id":25,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 26,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 27,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 28,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 29,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
+    },
+    {
+        "id": 30,
+        "teamName": "",
+        "stadium": {
+            "stadiumName": "",
+            "address": ", United States"
+        },
+        "shortDes": "",
+        "fullDes": "",
+        "achievement": [] ,
+        "roster": [],
+        "imageName": "",
+        "coordinates": {}
     }
 ]
