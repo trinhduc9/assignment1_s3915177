@@ -17,21 +17,6 @@
         }
     },
     {
-        "id": 3,
-        "teamName": "",
-        "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
-        },
-        "shortDes": "",
-        "fullDes": "",
-        "achievement": [] ,
-        "roster": [],
-        "imageName": "",
-        "coordinates": {}
-    }
-    ,
-    {
         "id": 2,
         "teamName": "",
         "stadium": {
