@@ -20,406 +20,493 @@
         "id": 2,
         "teamName": "Boston Celtics",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "TD Garden",
+            "address": "100 Legends Way, Boston, MA 02114, United States"
         },
         "shortDes": "",
         "fullDes": "",
         "achievement": [1957, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1968, 1969, 1974, 1976, 1981, 1984, 1986, 2008] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Celticslogo",
+        "coordinates": {
+            "latitude": 42.366291,
+            "longitude": -71.062630
+        }
     },
     {
         "id": 3,
-        "teamName": "",
+        "teamName": "Brooklyn Nets",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Barclays Center",
+            "address": "620 Atlantic Ave, Brooklyn, NY 11217, United States"
         },
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Netslogo",
+        "coordinates": {
+            "latitude": 40.683488°,
+            "longitude": -73.976027°
+        }
     },
     {
         "id": 4,
-        "teamName": "",
+        "teamName": "New York Knicks",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Madison Square Garden",
+            "address": "4 Pennsylvania Plaza, New York, NY 10001, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [1970, 1973] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Knickslogo",
+        "coordinates": {
+            "latitude": 40.750298,
+            "longitude": -73.993324
+        }
     },
     {
         "id": 5,
-        "teamName": "",
+        "teamName": "Philadelphia 76ers",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Wells Fargo Center",
+            "address": "3601 S Broad St, Philadelphia, PA 19148, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [1955, 1967, 1983] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "76logo",
+        "coordinates": {
+            "latitude": 39.905098,
+            "longitude": -75.173446
+        }
     },
     {
         "id": 6,
-        "teamName": "",
+        "teamName": "Toronto Raptors",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Scotiabank Arena",
+            "address": "40 Bay St., Toronto, ON M5J 2X2, Canada"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [2019] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Raptorslogo",
+        "coordinates": {
+            "latitude": 43.643499,
+            "longitude": -79.379106
+        }
     },
     {
         "id": 7,
-        "teamName": "",
+        "teamName": "Chicago Bulls",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "United Center",
+            "address": "1901 W Madison St, Chicago, IL 60612, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [1991, 1992, 1993, 1996, 1997, 1998] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Bullslogo",
+        "coordinates": {
+            "latitude": 41.880716,
+            "longitude": -87.674604
+        }
     },
     {
         "id": 8,
-        "teamName": "",
+        "teamName": "Cleveland Cavaliers",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Rocket Mortgage FieldHouse",
+            "address": "1 Center Court, Cleveland, OH 44115, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [2016] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Cavlogo",
+        "coordinates": {
+            "latitude": 41.496952,
+            "longitude": -81.689202
+        }
     },
     {
         "id": 9,
-        "teamName": "",
+        "teamName": "Detroit Pistons",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Little Caesars Arena",
+            "address": "2645 Woodward Ave, Detroit, MI 48201, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [1989, 1990, 2004] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Pistonslogo",
+        "coordinates": {
+            "latitude": 42.3419422653061,
+            "longitude": -83.054360877551
+        }
     },
     {
         "id": 10,
-        "teamName": "",
+        "teamName": "Indiana Pacers",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Bankers Life Fieldhouse",
+            "address": "125 S Pennsylvania St, Indianapolis, IN 46204, United States"
         },
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Pacerslogo",
+        "coordinates": {
+            "latitude": 39.76399,
+            "longitude": -86.155566
+        }
     },
     {
         "id": 11,
-        "teamName": "",
+        "teamName": "Milwaukee Bucks",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Fiserv Forum",
+            "address": "1111 Vel R. Phillips Ave, Milwaukee, WI 53203, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [1971, 2021] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Buckslogo",
+        "coordinates": {
+            "latitude": 43.045231,
+            "longitude": -87.917923
+        }
     },
     {
         "id": 12,
-        "teamName": "",
+        "teamName": "Atlanta Hawks",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "State Farm Arena",
+            "address": "1 State Farm Dr, Atlanta, GA 30303, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [1958] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Hawkslogo",
+        "coordinates": {
+            "latitude": 33.757290,
+            "longitude": -84.397331
+        }
     },
     {
         "id": 13,
-        "teamName": "",
+        "teamName": "Charlotte Hornets",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Spectrum Center",
+            "address": "333 E Trade St, Charlotte, NC 28202, United States"
         },
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Hornetslogo",
+        "coordinates": {
+            "latitude": 35.22503405,
+            "longitude": -80.8391368507158
+        }
     },
     {
         "id": 14,
-        "teamName": "",
+        "teamName": "Miami Heat",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Kaseya Center",
+            "address": "601 Biscayne Blvd, Miami, FL 33132, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [2006, 2012, 2013] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Heatslogo",
+        "coordinates": {
+            "latitude": 25.781401,
+            "longitude": -80.186969
+        }
     },
     {
         "id": 15,
-        "teamName": "",
+        "teamName": "Orlando Magic",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Amway Center",
+            "address": "400 W Church St, Orlando, FL 32801, United States"
         },
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Magiclogo",
+        "coordinates": {
+            "latitude": 28.539247,
+            "longitude": -81.383949
+        }
     },
     {
         "id": 16,
-        "teamName": "",
+        "teamName": "Washington Wizards",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Capital One Arena",
+            "address": "601 F St NW, Washington, DC 20004, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [1978] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Wizardslogo",
+        "coordinates": {
+            "latitude": 38.898125,
+            "longitude": -77.020963
+        }
     },
     {
         "id": 17,
-        "teamName": "",
+        "teamName": "Denver Nuggets",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Ball Arena",
+            "address": "1000 Chopper Cir, Denver, CO 80204, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [2023] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Nuggetslogo",
+        "coordinates": {
+            "latitude": 39.748664,
+            "longitude": -105.00755
+        }
     },
     {
         "id": 18,
-        "teamName": "",
+        "teamName": "Minnesota Timberwolves",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Target Center",
+            "address": "600 N 1st Ave, Minneapolis, MN 55403, United States"
         },
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Wolveslogo",
+        "coordinates": {
+            "latitude": 44.979455,
+            "longitude": -93.27619
+        }
     },
     {
         "id": 19,
-        "teamName": "",
+        "teamName": "Oklahoma City Thunder",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Paycom Center",
+            "address": "100 W Reno Ave, Oklahoma City, OK 73102, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [1979] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "OKClogo",
+        "coordinates": {
+            "latitude": 35.463391,
+            "longitude": -97.514594
+        }
     },
     {
         "id": 20,
-        "teamName": "",
+        "teamName": "Portland Trail Blazers",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Moda Center",
+            "address": "1 N Center Ct St, Portland, OR 97227, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [1977] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Blazerslogo",
+        "coordinates": {
+            "latitude": 45.531608,
+            "longitude": -122.667285
+        }
     },
     {
         "id": 21,
-        "teamName": "",
+        "teamName": "Utah Jazz",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Delta Center",
+            "address": "301 S Temple, Salt Lake City, UT 84101, United States"
         },
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Jazzlogo",
+        "coordinates": {
+            "latitude": 40.768360,
+            "longitude": -111.901550
+        }
     },
     {
         "id": 22,
-        "teamName": "",
+        "teamName": "LA Clippers",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Crypto.com Arena",
+            "address": "1111 S Figueroa St, Los Angeles, CA 90015, United States"
         },
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Clipperslogo",
+        "coordinates": {
+            "latitude": 34.043018,
+            "longitude":
+        }
     },
     {
         "id": 23,
-        "teamName": "",
+        "teamName": "Los Angeles Lakers",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Crypto.com Arena",
+            "address": "1111 S Figueroa St, Los Angeles, CA 90015, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [1949, 1950, 1952, 1953, 1954, 1972, 1980, 1982, 1985, 1987, 1988, 2000, 2001, 2002, 2009, 2010, 2020] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Lakerslogo",
+        "coordinates": {
+            "latitude": 34.043018,
+            "longitude": -118.267254
+        }
     },
     {
         "id": 24,
-        "teamName": "",
+        "teamName": "Phoenix Suns",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Footprint Center",
+            "address": "201 E Jefferson St, Phoenix, AZ 85004, United States"
         },
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Sunslogo",
+        "coordinates": {
+            "latitude": 33.445953,
+            "longitude": -112.07145
+        }
     },
     {
         "id":25,
-        "teamName": "",
+        "teamName": "Sacramento Kings",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Golden 1 Center",
+            "address": "500 David J Stern Walk, Sacramento, CA 95814, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [1951] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "SacKingslogo",
+        "coordinates": {
+            "latitude": 38.5806415,
+            "longitude": -121.4996191
+        }
     },
     {
         "id": 26,
-        "teamName": "",
+        "teamName": "Dallas Mavericks",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "American Airlines Center",
+            "address": "2500 Victory Ave, Dallas, Texas, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [2011] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Mavslogo",
+        "coordinates": {
+            "latitude": 32.7905076,
+            "longitude": -96.8102721346083
+        }
     },
     {
         "id": 27,
-        "teamName": "",
+        "teamName": "Houston Rockets",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Toyota Center",
+            "address": "1510 Polk St, Houston, TX 77002, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [1994, 1995] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Rocketslogo",
+        "coordinates": {
+            "latitude": 29.75074725,
+            "longitude": -95.3622315147709
+        }
     },
     {
         "id": 28,
-        "teamName": "",
+        "teamName": "Memphis Grizzlies",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "FedExForum",
+            "address": "191 Beale St, Memphis, TN 38103, United States"
         },
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Grizzlogo",
+        "coordinates": {
+            "latitude": 35.13824,
+            "longitude": -90.050695
+        }
     },
     {
         "id": 29,
-        "teamName": "",
+        "teamName": "New Orleans Pelicans",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "Smoothie King Center",
+            "address": "1501 Dave Dixon Dr, New Orleans, LA 70113, United States"
         },
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Pelicanslogo",
+        "coordinates": {
+            "latitude": 29.949030,
+            "longitude": -90.082298
+        }
     },
     {
         "id": 30,
-        "teamName": "",
+        "teamName": "San Antonio Spurs",
         "stadium": {
-            "stadiumName": "",
-            "address": ", United States"
+            "stadiumName": "AT&T Center",
+            "address": "1 AT&T Center Parkway, San Antonio, TX 78219, United States"
         },
         "shortDes": "",
         "fullDes": "",
-        "achievement": [] ,
+        "achievement": [1999, 2003, 2005, 2007, 2014] ,
         "roster": [],
-        "imageName": "",
-        "coordinates": {}
+        "imageName": "Spurslogo",
+        "coordinates": {
+            "latitude": 29.4270504,
+            "longitude": -98.437507063984
+        }
     }
 ]
