@@ -9,7 +9,33 @@
         "shortDes": "4x times NBA championo in the last 10 years",
         "fullDes": "This is a long description",
         "achievement": [1947, 1956, 1975, 2015, 2017, 2018, 2022] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 30,
+                "playerName": "Stephen Curry",
+                "position": "Guard"
+            },
+            {
+                "number": 11,
+                "playerName": "Klay Thompson",
+                "position": "Guard"
+            },
+            {
+                "number": 23,
+                "playerName": "Draymond Green",
+                "position": "Foward"
+            },
+            {
+                "number": 9,
+                "playerName": "Andre Iguodala",
+                "position": "Guard-Foward"
+            },
+            {
+                "number": 22,
+                "playerName": "Andrew Wiggins",
+                "position": "Foward"
+            }
+        ],
         "imageName": "GSWlogo",
         "coordinates": {
             "latitude": 37.7680381,
@@ -26,7 +52,33 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [1957, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1968, 1969, 1974, 1976, 1981, 1984, 1986, 2008] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 0,
+                "playerName": "Jason Tatum",
+                "position": "Foward-Guard"
+            },
+            {
+                "number": 7,
+                "playerName": "Jaylen Brown",
+                "position": "Guard-Foward"
+            },
+            {
+                "number": 6,
+                "playerName": "Kristaps Porzingis",
+                "position": "Foward-Center"
+            },
+            {
+                "number": 9,
+                "playerName": "Derrick White",
+                "position": "Guard"
+            },
+            {
+                "number": 91,
+                "playerName": "Blake Griffin",
+                "position": "Foward"
+            }
+        ],
         "imageName": "Celticslogo",
         "coordinates": {
             "latitude": 42.366291,
@@ -43,11 +95,37 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 10,
+                "playerName": "Ben Simmons",
+                "position": "Guard-Foward"
+            },
+            {
+                "number": 24,
+                "playerName": "Cam Thomas",
+                "position": "Guard"
+            },
+            {
+                "number": 1,
+                "playerName": "Mikal Bridges",
+                "position": "Guard-Foward"
+            },
+            {
+                "number": 33,
+                "playerName": "Nic Claxton",
+                "position": "Center"
+            },
+            {
+                "number": 26,
+                "playerName": "Spencer Dinwiddie",
+                "position": "Guard"
+            }
+        ],
         "imageName": "Netslogo",
         "coordinates": {
-            "latitude": 40.683488°,
-            "longitude": -73.976027°
+            "latitude": 40.683488,
+            "longitude": -73.976027
         }
     },
     {
@@ -60,7 +138,33 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [1970, 1973] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 0,
+                "playerName": "Donte DiVincenzo",
+                "position": "Guard"
+            },
+            {
+                "number": 9,
+                "playerName": "RJ Barrett",
+                "position": "Foward-Guard"
+            },
+            {
+                "number": 23,
+                "playerName": "Mitchell Robinson",
+                "position": "Center-Foward"
+            },
+            {
+                "number": 30,
+                "playerName": "Julius Randle",
+                "position": "Foward-Center"
+            },
+            {
+                "number": 11,
+                "playerName": "Jalen Brunson",
+                "position": "Guard"
+            }
+        ],
         "imageName": "Knickslogo",
         "coordinates": {
             "latitude": 40.750298,
@@ -77,7 +181,33 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [1955, 1967, 1983] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 21,
+                "playerName": "Joel Embiid",
+                "position": "Center-Foward"
+            },
+            {
+                "number": 17,
+                "playerName": "P.J. Tucket",
+                "position": "Foward"
+            },
+            {
+                "number": 22,
+                "playerName": "Patrick Beverley",
+                "position": "Guard"
+            },
+            {
+                "number": 1,
+                "playerName": "James Harden",
+                "position": "Guard"
+            },
+            {
+                "number": 0,
+                "playerName": "Tyrese Maxey",
+                "position": "Guard"
+            }
+        ],
         "imageName": "76logo",
         "coordinates": {
             "latitude": 39.905098,
@@ -94,7 +224,33 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [2019] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 43,
+                "playerName": "Pascal Siakam",
+                "position": "Foward"
+            },
+            {
+                "number": 17,
+                "playerName": "Dennis Schroder",
+                "position": "Guard"
+            },
+            {
+                "number": 4,
+                "playerName": "Scottie Barnes",
+                "position": "Foward"
+            },
+            {
+                "number": 33,
+                "playerName": "Gary Trent Jr.",
+                "position": "Guard-Foward"
+            },
+            {
+                "number": 32,
+                "playerName": "Otto Potter Jr.",
+                "position": "Foward"
+            }
+        ],
         "imageName": "Raptorslogo",
         "coordinates": {
             "latitude": 43.643499,
@@ -111,7 +267,33 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [1991, 1992, 1993, 1996, 1997, 1998] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 2,
+                "playerName": "Lonzo Ball",
+                "position": "Guard"
+            },
+            {
+                "number": 8,
+                "playerName": "Zach LaVine",
+                "position": "Guard"
+            },
+            {
+                "number": 3,
+                "playerName": "Andre Drummond",
+                "position": "Center"
+            },
+            {
+                "number": 5,
+                "playerName": "Derrick Jones Jr.",
+                "position": "Foward"
+            },
+            {
+                "number": 11,
+                "playerName": "DeMar DeRozan",
+                "position": "Guard-Foward"
+            }
+        ],
         "imageName": "Bullslogo",
         "coordinates": {
             "latitude": 41.880716,
@@ -128,7 +310,33 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [2016] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 45,
+                "playerName": "Donovan Mitchell",
+                "position": "Guard"
+            },
+            {
+                "number": 13,
+                "playerName": "Ricky Rubio",
+                "position": "Guard"
+            },
+            {
+                "number": 14,
+                "playerName": "Danny Green",
+                "position": "Guard"
+            },
+            {
+                "number": 31,
+                "playerName": "Jarret Allen",
+                "position": "Center"
+            },
+            {
+                "number": 40,
+                "playerName": "Craig Porter",
+                "position": "Guard"
+            }
+        ],
         "imageName": "Cavlogo",
         "coordinates": {
             "latitude": 41.496952,
@@ -145,7 +353,33 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [1989, 1990, 2004] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 0,
+                "playerName": "Jalen Duren",
+                "position": "Center"
+            },
+            {
+                "number": 2,
+                "playerName": "Cade Cunningham",
+                "position": "Guard"
+            },
+            {
+                "number": 28,
+                "playerName": "Isaiah Stewart",
+                "position": "Foward-Center"
+            },
+            {
+                "number": 35,
+                "playerName": "Marvin Bagley III",
+                "position": "Foward"
+            },
+            {
+                "number": 7,
+                "playerName": "Killian Hayes",
+                "position": "Guard"
+            }
+        ],
         "imageName": "Pistonslogo",
         "coordinates": {
             "latitude": 42.3419422653061,
@@ -162,7 +396,23 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 9,
+                "playerName": "T.J. McConnell",
+                "position": "Guard"
+            },
+            {
+                "number": 10,
+                "playerName": "Kendall Brown",
+                "position": "Guard-Foward"
+            },
+            {
+                "number": 33,
+                "playerName": "Myles Turner",
+                "position": "Center-Foward"
+            }
+        ],
         "imageName": "Pacerslogo",
         "coordinates": {
             "latitude": 39.76399,
@@ -179,7 +429,33 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [1971, 2021] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 34,
+                "playerName": "Giannis Antetokounmpo",
+                "position": "Foward"
+            },
+            {
+                "number": 22,
+                "playerName": "Khris Middleton",
+                "position": "Foward"
+            },
+            {
+                "number": 11,
+                "playerName": "Brook Lopez",
+                "position": "Center"
+            },
+            {
+                "number": 21,
+                "playerName": "Jrue Holiday",
+                "position": "Guard"
+            },
+            {
+                "number": 20,
+                "playerName": "AJ Green",
+                "position": "Guard"
+            }
+        ],
         "imageName": "Buckslogo",
         "coordinates": {
             "latitude": 43.045231,
@@ -196,7 +472,23 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [1958] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 11,
+                "playerName": "Trae Young",
+                "position": "Guard"
+            },
+            {
+                "number": 2,
+                "playerName": "Tren Forrest",
+                "position": "Guard"
+            },
+            {
+                "number": 8,
+                "playerName": "Patty Mills",
+                "position": "Guard"
+            }
+        ],
         "imageName": "Hawkslogo",
         "coordinates": {
             "latitude": 33.757290,
@@ -213,7 +505,23 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 1,
+                "playerName": "LaMelo Ball",
+                "position": "Guard"
+            },
+            {
+                "number": 25,
+                "playerName": "P.J. Washington",
+                "position": "Foward"
+            },
+            {
+                "number": 4,
+                "playerName": "Nick Richards",
+                "position": "Center"
+            }
+        ],
         "imageName": "Hornetslogo",
         "coordinates": {
             "latitude": 35.22503405,
@@ -230,7 +538,28 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [2006, 2012, 2013] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 0,
+                "playerName": "Kevin Love",
+                "position": "Foward-Center"
+            },
+            {
+                "number": 14,
+                "playerName": "Tyler Herro",
+                "position": "Guard"
+            },
+            {
+                "number": 22,
+                "playerName": "Jimmy Butler",
+                "position": "Foward"
+            },
+            {
+                "number": 7,
+                "playerName": "Kyle Lowry",
+                "position": "Guard"
+            }
+        ],
         "imageName": "Heatslogo",
         "coordinates": {
             "latitude": 25.781401,
@@ -247,7 +576,23 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 4,
+                "playerName": "Jalen Suggs",
+                "position": "Guard"
+            },
+            {
+                "number": 22,
+                "playerName": "Franz Wagner",
+                "position": "Foward"
+            },
+            {
+                "number": 50,
+                "playerName": "Cole Anthony",
+                "position": "Guard"
+            }
+        ],
         "imageName": "Magiclogo",
         "coordinates": {
             "latitude": 28.539247,
@@ -264,7 +609,23 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [1978] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 13,
+                "playerName": "Jordan Poole",
+                "position": "Guard"
+            },
+            {
+                "number": 20,
+                "playerName": "Kendrick Nunn",
+                "position": "Guard"
+            },
+            {
+                "number": 33,
+                "playerName": "Kyle Kuzma",
+                "position": "Foward"
+            }
+        ],
         "imageName": "Wizardslogo",
         "coordinates": {
             "latitude": 38.898125,
@@ -281,7 +642,23 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [2023] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 15,
+                "playerName": "Nikola Jokic",
+                "position": "Center"
+            },
+            {
+                "number": 27,
+                "playerName": "Jamal Murray",
+                "position": "Guard"
+            },
+            {
+                "number": 6,
+                "playerName": "DeAndre Jordan",
+                "position": "Center"
+            }
+        ],
         "imageName": "Nuggetslogo",
         "coordinates": {
             "latitude": 39.748664,
@@ -298,7 +675,23 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 32,
+                "playerName": "Karl-Anthony Towns",
+                "position": "Center-Foward"
+            },
+            {
+                "number": 27,
+                "playerName": "Rudy Gobert",
+                "position": "Center"
+            },
+            {
+                "number": 1,
+                "playerName": "Anthony Edwards",
+                "position": "Guard"
+            }
+        ],
         "imageName": "Wolveslogo",
         "coordinates": {
             "latitude": 44.979455,
@@ -315,7 +708,23 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [1979] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 17,
+                "playerName": "Aleksej Pokusevski",
+                "position": "Foward"
+            },
+            {
+                "number": 34,
+                "playerName": "Kenrich Williams",
+                "position": "Guard-Foward"
+            },
+            {
+                "number": 11,
+                "playerName": "Isaiah Joe",
+                "position": "Guard"
+            }
+        ],
         "imageName": "OKClogo",
         "coordinates": {
             "latitude": 35.463391,
@@ -332,7 +741,23 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [1977] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 0,
+                "playerName": "Damian Lillard",
+                "position": "Guard"
+            },
+            {
+                "number": 27,
+                "playerName": "Jusuf Nurkic",
+                "position": "Center"
+            },
+            {
+                "number": 11,
+                "playerName": "Kevin Knox II",
+                "position": "Foward"
+            }
+        ],
         "imageName": "Blazerslogo",
         "coordinates": {
             "latitude": 45.531608,
@@ -349,7 +774,23 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 0,
+                "playerName": "Jordan Clarkson",
+                "position": "Guard"
+            },
+            {
+                "number": 20,
+                "playerName": "John Collins",
+                "position": "Foward"
+            },
+            {
+                "number": 11,
+                "playerName": "Kris Dunn",
+                "position": "Guard"
+            }
+        ],
         "imageName": "Jazzlogo",
         "coordinates": {
             "latitude": 40.768360,
@@ -366,11 +807,27 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 0,
+                "playerName": "Russell Westbrook",
+                "position": "Guard"
+            },
+            {
+                "number": 2,
+                "playerName": "Kawhi Leonard",
+                "position": "Foward"
+            },
+            {
+                "number": 13,
+                "playerName": "Paul George",
+                "position": "Foward"
+            }
+        ],
         "imageName": "Clipperslogo",
         "coordinates": {
             "latitude": 34.043018,
-            "longitude":
+            "longitude": -118.267254
         }
     },
     {
@@ -383,7 +840,33 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [1949, 1950, 1952, 1953, 1954, 1972, 1980, 1982, 1985, 1987, 1988, 2000, 2001, 2002, 2009, 2010, 2020] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 23,
+                "playerName": "LeBron James",
+                "position": "Foward"
+            },
+            {
+                "number": 15,
+                "playerName": "Austin Reaves",
+                "position": "Guard"
+            },
+            {
+                "number": 3,
+                "playerName": "Anthony Davis",
+                "position": "Foward-Center"
+            },
+            {
+                "number": 1,
+                "playerName": "D'Angelo Russell",
+                "position": "Guard"
+            },
+            {
+                "number": 28,
+                "playerName": "Rui Hachimura",
+                "position": "Foward"
+            }
+        ],
         "imageName": "Lakerslogo",
         "coordinates": {
             "latitude": 34.043018,
@@ -400,7 +883,23 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 1,
+                "playerName": "Devin Booker",
+                "position": "Guard",""
+            },
+            {
+                "number": 3,
+                "playerName": "Bradley Beal",
+                "position": "Guard"
+            },
+            {
+                "number": 35,
+                "playerName": "Kevin Durant",
+                "position": "Foward"
+            }
+        ],
         "imageName": "Sunslogo",
         "coordinates": {
             "latitude": 33.445953,
@@ -417,7 +916,23 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [1951] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 5,
+                "playerName": "De'Aaron Fox",
+                "position": "Guard"
+            },
+            {
+                "number": 25,
+                "playerName": "Alex Len",
+                "position": "Center"
+            },
+            {
+                "number": 40,
+                "playerName": "Harrison Barnes",
+                "position": "Foward"
+            }
+        ],
         "imageName": "SacKingslogo",
         "coordinates": {
             "latitude": 38.5806415,
@@ -434,7 +949,23 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [2011] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 77,
+                "playerName": "Luka Doncic",
+                "position": "Foward-Guard"
+            },
+            {
+                "number": 30,
+                "playerName": "Seth Curry",
+                "position": "Guard"
+            },
+            {
+                "number": 2,
+                "playerName": "Kyrie Irving",
+                "position": "Guard"
+            }
+        ],
         "imageName": "Mavslogo",
         "coordinates": {
             "latitude": 32.7905076,
@@ -451,7 +982,23 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [1994, 1995] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 23,
+                "playerName": "Fred VanVleet",
+                "position": "Guard"
+            },
+            {
+                "number": 4,
+                "playerName": "Jalen Green",
+                "position": "Guard"
+            },
+            {
+                "number": 24,
+                "playerName": "Dillon Brooks",
+                "position": "Guard-Foward"
+            }
+        ],
         "imageName": "Rocketslogo",
         "coordinates": {
             "latitude": 29.75074725,
@@ -468,7 +1015,24 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 12,
+                "playerName": "Ja Morant",
+                "position": "Guard"
+            },
+            {
+                "number": 36,
+                "playerName": "Marcus Smart",
+                "position": "Guard"
+            },
+            {
+                "number": 4,
+                "playerName": "Derrick Rose",
+                "position": "Guard"
+            }
+            
+        ],
         "imageName": "Grizzlogo",
         "coordinates": {
             "latitude": 35.13824,
@@ -485,7 +1049,23 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 1,
+                "playerName": "Zion Williamson",
+                "position": "Foward"
+            },
+            {
+                "number": 3,
+                "playerName": "CJ McCollum",
+                "position": "Guard"
+            },
+            {
+                "number": 14,
+                "playerName": "Brandon Ingram",
+                "position": "Foward"
+            }
+        ],
         "imageName": "Pelicanslogo",
         "coordinates": {
             "latitude": 29.949030,
@@ -502,7 +1082,23 @@
         "shortDes": "",
         "fullDes": "",
         "achievement": [1999, 2003, 2005, 2007, 2014] ,
-        "roster": [],
+        "roster": [
+            {
+                "number": 23,
+                "playerName": "Zach Collins",
+                "position": "Foward-Center"
+            },
+            {
+                "number": 4,
+                "playerName": "Devonte' Graham",
+                "position": "Guard"
+            },
+            {
+                "number": 1,
+                "playerName": "Victor Wembanyama",
+                "position": "Foward-Center"
+            }
+        ],
         "imageName": "Spurslogo",
         "coordinates": {
             "latitude": 29.4270504,

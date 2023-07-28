@@ -16,6 +16,10 @@ import CoreLocation
 
 struct Player: Codable{
     var number: Int
-    var playName: String
+    var playerName: String
     var position: String
+    var playerImageName: String
+    var playerImage :Image {
+        Image(playerImageName)
+    } 
 }

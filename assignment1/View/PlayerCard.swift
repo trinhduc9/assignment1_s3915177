@@ -12,20 +12,24 @@
 
 import SwiftUI
 
-struct TeamCard: View {
-    var team: Team
+struct PlayerCard: View {
+    var player: Player
     var body: some View {
-        HStack {
-            team.image
+        VStack {
+            player.playerImage
                 .resizable()
                 .frame(width: 50, height: 50)
-            Text(team.teamName)
+            Text(player.playerName)
+            HStack{
+                Text(player.number)
+                Text(player.position)
+            }
         }
     }
 }
 
-struct TeamCard_Previews: PreviewProvider {
+struct PlayerCard_Previews: PreviewProvider {
     static var previews: some View {
-        TeamCard(team: teams[0].roster[0])
+        PlayerCard(team: teams[0])
     }
 }
