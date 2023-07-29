@@ -69,11 +69,6 @@
                 "position": "Foward-Center"
             },
             {
-                "number": 9,
-                "playerName": "Derrick White",
-                "position": "Guard"
-            },
-            {
                 "number": 91,
                 "playerName": "Blake Griffin",
                 "position": "Foward"
@@ -110,16 +105,6 @@
                 "number": 1,
                 "playerName": "Mikal Bridges",
                 "position": "Guard-Foward"
-            },
-            {
-                "number": 33,
-                "playerName": "Nic Claxton",
-                "position": "Center"
-            },
-            {
-                "number": 26,
-                "playerName": "Spencer Dinwiddie",
-                "position": "Guard"
             }
         ],
         "imageName": "Netslogo",
@@ -150,19 +135,9 @@
                 "position": "Foward-Guard"
             },
             {
-                "number": 23,
-                "playerName": "Mitchell Robinson",
-                "position": "Center-Foward"
-            },
-            {
                 "number": 30,
                 "playerName": "Julius Randle",
                 "position": "Foward-Center"
-            },
-            {
-                "number": 11,
-                "playerName": "Jalen Brunson",
-                "position": "Guard"
             }
         ],
         "imageName": "Knickslogo",
@@ -188,11 +163,6 @@
                 "position": "Center-Foward"
             },
             {
-                "number": 17,
-                "playerName": "P.J. Tucket",
-                "position": "Foward"
-            },
-            {
                 "number": 22,
                 "playerName": "Patrick Beverley",
                 "position": "Guard"
@@ -200,11 +170,6 @@
             {
                 "number": 1,
                 "playerName": "James Harden",
-                "position": "Guard"
-            },
-            {
-                "number": 0,
-                "playerName": "Tyrese Maxey",
                 "position": "Guard"
             }
         ],
@@ -238,16 +203,6 @@
             {
                 "number": 4,
                 "playerName": "Scottie Barnes",
-                "position": "Foward"
-            },
-            {
-                "number": 33,
-                "playerName": "Gary Trent Jr.",
-                "position": "Guard-Foward"
-            },
-            {
-                "number": 32,
-                "playerName": "Otto Potter Jr.",
                 "position": "Foward"
             }
         ],
@@ -287,11 +242,6 @@
                 "number": 5,
                 "playerName": "Derrick Jones Jr.",
                 "position": "Foward"
-            },
-            {
-                "number": 11,
-                "playerName": "DeMar DeRozan",
-                "position": "Guard-Foward"
             }
         ],
         "imageName": "Bullslogo",
@@ -324,16 +274,6 @@
             {
                 "number": 14,
                 "playerName": "Danny Green",
-                "position": "Guard"
-            },
-            {
-                "number": 31,
-                "playerName": "Jarret Allen",
-                "position": "Center"
-            },
-            {
-                "number": 40,
-                "playerName": "Craig Porter",
                 "position": "Guard"
             }
         ],
@@ -368,16 +308,6 @@
                 "number": 28,
                 "playerName": "Isaiah Stewart",
                 "position": "Foward-Center"
-            },
-            {
-                "number": 35,
-                "playerName": "Marvin Bagley III",
-                "position": "Foward"
-            },
-            {
-                "number": 7,
-                "playerName": "Killian Hayes",
-                "position": "Guard"
             }
         ],
         "imageName": "Pistonslogo",
@@ -448,11 +378,6 @@
             {
                 "number": 21,
                 "playerName": "Jrue Holiday",
-                "position": "Guard"
-            },
-            {
-                "number": 20,
-                "playerName": "AJ Green",
                 "position": "Guard"
             }
         ],
