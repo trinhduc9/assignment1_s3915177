@@ -16,6 +16,8 @@ import MapKit
 
 struct MapPopupView: View {
     var coordinate: CLLocationCoordinate2D
+
+    let didClose: () -> Void
     
     @State private var region = MKCoordinateRegion()
     var body: some View {
@@ -39,17 +41,17 @@ struct MapPopupView: View {
 private extension MapPopupView {
     var close: some View {
         Button{
-            label: {
-                Image(systemName: "xmark")
-                    .symbolVariant(.circle.fill)
-                    .font(
-                        .system(size: 20,
-                                weight: .bold,
-                                design: .rounded)
-                    )
-                    .foregroundStyle(.gray.opcatity(0.4))
-                    .padding(8)
-            }
+            didClose()
+        }label: {
+            Image(systemName: "xmark")
+                .symbolVariant(.circle.fill)
+                .font(
+                    .system(size: 20,
+                            weight: .bold,
+                            design: .rounded)
+                )
+                .foregroundStyle(.gray.opcatity(0.4))
+                .padding(8)
         }
     }
 }

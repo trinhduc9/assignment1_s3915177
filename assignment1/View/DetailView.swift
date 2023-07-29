@@ -17,32 +17,45 @@ struct DetailView: View {
 
     var team: Team
     var body: some View {
-        VStack{
-            Text(team.teamName)
-            Image(team.image)
-            HStack{
-                Text("Description: ")
-                Text(team.fullDes)
+        ZStack{
+            VStack{
+                Text(team.teamName)
+                Image(team.image)
+                HStack{
+                    Text("Description: ")
+                    Text(team.fullDes)
+                }
+                HStack{
+                    Text("Home Court: ")
+                    Text(team.stadium.stadiumName)
+                }
+                HStack{
+                    Text("Court Address: ")
+                    Text(team.stadium.address)
+                    Image(systemName: "square.and.arrow.up") 
+                        .resizable()
+                        .frame(width: 50, height: 50)
+                        .onTapGesture {
+                            withAnimation{
+                                popupManager.present()
+                            }
+                        }
+                }
+                HStack{
+                    Text("Achievement: ")
+                    AchievementView(team)
+                }
+                PlayerListView(team)
             }
-            HStack{
-                Text("Home Court: ")
-                Text(team.stadium.stadiumName)
-            }
-            HStack{
-                Text("Court Address: ")
-                Text(team.stadium.address)
-                Image(systemName: "square.and.arrow.up") 
-                    .resizable()
-                    .frame(width: 50, height: 50)
-                    .onTapGesture {
-                        popupManager.present()
+        }
+        .overlay(alignment: .bottom) {
+            if popupManager.action.isPresented {
+                MapPopupView {
+                    withAnimation {
+                        popupManager.dismiss()
                     }
+                }
             }
-            HStack{
-                Text("Achievement: ")
-                AchievementView(team)
-            }
-            PlayerListView(team)
         }
     }
 }
