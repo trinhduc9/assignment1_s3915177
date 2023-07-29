@@ -19,16 +19,38 @@ struct MapPopupView: View {
     
     @State private var region = MKCoordinateRegion()
     var body: some View {
-        Map(coordinateRegion: $region)
-            .onAppear {
-                setRegion(coordinate)
-            }
+        VStack{
+            Map(coordinateRegion: $region)
+                .onAppear {
+                    setRegion(coordinate)
+                }
+        }.overlay(alignment: .topTrailing) {
+            close
+        }
     }
     private func setRegion(_ coordinate: CLLocationCoordinate2D) {
         region = MKCoordinateRegion(
             center: coordinate,
             span: MKCoordinateSpan(latitudeDelta: 0.004, longitudeDelta: 0.004)
         )
+    }
+}
+
+private extension MapPopupView {
+    var close: some View {
+        Button{
+            label: {
+                Image(systemName: "xmark")
+                    .symbolVariant(.circle.fill)
+                    .font(
+                        .system(size: 20,
+                                weight: .bold,
+                                design: .rounded)
+                    )
+                    .foregroundStyle(.gray.opcatity(0.4))
+                    .padding(8)
+            }
+        }
     }
 }
 
