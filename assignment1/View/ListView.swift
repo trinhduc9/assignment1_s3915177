@@ -21,7 +21,7 @@ struct ListView: View {
                 } label: {
                     TeamCard(team: team)
                 }
-                .navigationTitle("NBA  ")
+                .navigationTitle("NBA Teams")
             }
         }
     }

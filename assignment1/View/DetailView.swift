@@ -12,8 +12,11 @@
 import SwiftUI
 
 struct DetailView: View {
+
+    @EnvironmentObject var popupManager: PopupManager
+
     var team: Team
-    
+    @StateObject var popupManager = PopupManager()
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
@@ -22,5 +25,6 @@ struct DetailView: View {
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
         DetailView(team: teams[0])
+            .environmentObject(PopupManager())
     }
 }
