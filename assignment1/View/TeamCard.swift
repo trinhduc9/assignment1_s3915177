@@ -19,13 +19,16 @@ struct TeamCard: View {
             team.image
                 .resizable()
                 .frame(width: 50, height: 50)
-            Text(team.teamName)
+            VStack{
+                Text(team.teamName)
+                Text(team.shortDes)
+            }
         }
     }
 }
 
 struct TeamCard_Previews: PreviewProvider {
     static var previews: some View {
-        TeamCard(team: teams[0].roster[0])
+        TeamCard(team: teams[0])
     }
 }

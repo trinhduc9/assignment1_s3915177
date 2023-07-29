@@ -30,6 +30,6 @@ struct PlayerCard: View {
 
 struct PlayerCard_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerCard(team: teams[0])
+        PlayerCard(team: teams[0].roster[0])
     }
 }

@@ -16,9 +16,28 @@ struct DetailView: View {
     @EnvironmentObject var popupManager: PopupManager
 
     var team: Team
-    @StateObject var popupManager = PopupManager()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text(team.teamName)
+            Image(team.image)
+            HStack{
+                Text("Description: ")
+                Text(team.fullDes)
+            }
+            HStack{
+                Text("Home Court: ")
+                Text(team.stadium.stadiumName)
+            }
+            HStack{
+                Text("Court Address: ")
+                Text(team.stadium.address)
+            }
+            HStack{
+                Text("Achievement: ")
+                AchievementView(team)
+            }
+            PlayerListView(team)
+        }
     }
 }
 
