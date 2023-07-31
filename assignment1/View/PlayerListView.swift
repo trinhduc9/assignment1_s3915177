@@ -13,15 +13,24 @@
 import SwiftUI
 
 struct PlayerListView: View {
-
+    
     var team: Team
-
+    
     var body: some View {
-        List(team.roster) {
-            player in
+        ScrollView(.horizontal, showsIndicators: false) {
             HStack{
-                PlayerCard(player)
+                ForEach(team.roster) {
+                    player in
+                    PlayerCard(player: player)
+                }
             }
         }
+    }
+}
+
+
+struct PlayerListView_Previews: PreviewProvider {
+    static var previews: some View {
+        PlayerListView(team: teams[0])
     }
 }

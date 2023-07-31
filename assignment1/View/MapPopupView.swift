@@ -17,8 +17,7 @@ import MapKit
 struct MapPopupView: View {
     var coordinate: CLLocationCoordinate2D
 
-    let didClose: () -> Void
-    
+
     @State private var region = MKCoordinateRegion()
     var body: some View {
         VStack{
@@ -26,8 +25,6 @@ struct MapPopupView: View {
                 .onAppear {
                     setRegion(coordinate)
                 }
-        }.overlay(alignment: .topTrailing) {
-            close
         }
     }
     private func setRegion(_ coordinate: CLLocationCoordinate2D) {
@@ -41,7 +38,7 @@ struct MapPopupView: View {
 private extension MapPopupView {
     var close: some View {
         Button{
-            didClose()
+
         }label: {
             Image(systemName: "xmark")
                 .symbolVariant(.circle.fill)
@@ -50,7 +47,7 @@ private extension MapPopupView {
                             weight: .bold,
                             design: .rounded)
                 )
-                .foregroundStyle(.gray.opcatity(0.4))
+                .foregroundStyle(.gray.opacity(0.4))
                 .padding(8)
         }
     }

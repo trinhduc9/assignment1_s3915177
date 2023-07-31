@@ -18,18 +18,18 @@ struct PlayerCard: View {
         VStack {
             player.playerImage
                 .resizable()
-                .frame(width: 50, height: 50)
+                .frame(width: 100, height: 100)
             Text(player.playerName)
-            HStack{
-                Text(player.number)
+            HStack {
+                Text(String(player.id))
                 Text(player.position)
             }
-        }
+        }.frame(width: 150, height: 150)
     }
 }
 
 struct PlayerCard_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerCard(team: teams[0].roster[0])
+        PlayerCard(player: teams[0].roster[0])
     }
 }

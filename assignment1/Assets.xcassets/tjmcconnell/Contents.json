@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "tjmcconnell.png",
+      "filename" : "tjmcconnell.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "tjmcconnell@2x.png",
+      "filename" : "tjmcconnell@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "tjmcconnell@3x.png",
+      "filename" : "tjmcconnell@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

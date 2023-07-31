@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "draymond.png",
+      "filename" : "draymond.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "draymond@2x.png",
+      "filename" : "draymond@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "draymond@3x.png",
+      "filename" : "draymond@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

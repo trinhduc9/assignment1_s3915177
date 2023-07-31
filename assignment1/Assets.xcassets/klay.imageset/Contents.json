@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "klay.png",
+      "filename" : "klay.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "klay@2x.png",
+      "filename" : "klay@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "klay@3x.png",
+      "filename" : "klay@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

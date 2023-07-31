@@ -14,8 +14,8 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-struct Player: Codable{
-    var number: Int
+struct Player: Identifiable, Codable{
+    var id: Int
     var playerName: String
     var position: String
     var playerImageName: String

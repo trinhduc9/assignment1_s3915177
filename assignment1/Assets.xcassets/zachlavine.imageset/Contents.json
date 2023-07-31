@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "zachlavine.png",
+      "filename" : "zachlavine.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "zachlavine@2x.png",
+      "filename" : "zachlavine@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "zachlavine@3x.png",
+      "filename" : "zachlavine@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

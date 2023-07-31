@@ -20,7 +20,7 @@ struct DetailView: View {
         ZStack{
             VStack{
                 Text(team.teamName)
-                Image(team.image)
+                TeamLogoView(image: team.image)
                 HStack{
                     Text("Description: ")
                     Text(team.fullDes)
@@ -32,29 +32,16 @@ struct DetailView: View {
                 HStack{
                     Text("Court Address: ")
                     Text(team.stadium.address)
-                    Image(systemName: "square.and.arrow.up") 
-                        .resizable()
-                        .frame(width: 50, height: 50)
-                        .onTapGesture {
-                            withAnimation{
-                                popupManager.present()
-                            }
-                        }
+    
                 }
+                MapPopupView(coordinate: team.locationCoordinate)
+                    .edgesIgnoringSafeArea(.top)
+                    .frame(height: 250)
                 HStack{
                     Text("Achievement: ")
-                    AchievementView(team)
+                    AchievementView(team: team)
                 }
-                PlayerListView(team)
-            }
-        }
-        .overlay(alignment: .bottom) {
-            if popupManager.action.isPresented {
-                MapPopupView {
-                    withAnimation {
-                        popupManager.dismiss()
-                    }
-                }
+                PlayerListView(team: team)
             }
         }
     }
