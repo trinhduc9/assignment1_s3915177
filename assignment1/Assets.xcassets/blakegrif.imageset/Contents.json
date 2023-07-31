@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "blakegrif.jpg",
+      "filename" : "blakegrif.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "blakegrif@2x.jpg",
+      "filename" : "blakegrif@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "blakegrif@3x.jpg",
+      "filename" : "blakegrif@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

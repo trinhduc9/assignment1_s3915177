@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "middleton.jpg",
+      "filename" : "middleton.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "middleton@2x.jpg",
+      "filename" : "middleton@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "middleton@3x.jpg",
+      "filename" : "middleton@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

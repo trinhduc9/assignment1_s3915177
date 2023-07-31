@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "iguodala.jpg",
+      "filename" : "iguodala.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "iguodala@2x.jpg",
+      "filename" : "iguodala@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "iguodala@3x.jpg",
+      "filename" : "iguodala@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

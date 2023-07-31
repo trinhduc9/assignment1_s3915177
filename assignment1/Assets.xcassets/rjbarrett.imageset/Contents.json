@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "rjbarrett.jpg",
+      "filename" : "rjbarrett.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "rjbarrett@2x.jpg",
+      "filename" : "rjbarrett@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "rjbarrett@3x.jpg",
+      "filename" : "rjbarrett@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

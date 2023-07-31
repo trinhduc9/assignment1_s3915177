@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "siakam.jpg",
+      "filename" : "siakam.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "siakam@2x.jpg",
+      "filename" : "siakam@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "siakam@3x.jpg",
+      "filename" : "siakam@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "mikalbridges.jpg",
+      "filename" : "mikalbridges.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "mikalbridges@2x.jpg",
+      "filename" : "mikalbridges@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "mikalbridges@3x.jpg",
+      "filename" : "mikalbridges@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

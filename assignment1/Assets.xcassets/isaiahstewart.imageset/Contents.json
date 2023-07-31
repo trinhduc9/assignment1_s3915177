@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "isaiahstewart.jpg",
+      "filename" : "isaiahstewart.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "isaiahstewart@2x.jpg",
+      "filename" : "isaiahstewart@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "isaiahstewart@3x.jpg",
+      "filename" : "isaiahstewart@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

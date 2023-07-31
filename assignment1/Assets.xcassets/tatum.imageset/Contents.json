@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "tatum.jpg",
+      "filename" : "tatum.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "tatum@2x.jpg",
+      "filename" : "tatum@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "tatum@3x.jpg",
+      "filename" : "tatum@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

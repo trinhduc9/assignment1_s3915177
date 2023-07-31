@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "holiday.jpg",
+      "filename" : "holiday.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "holiday@2x.jpg",
+      "filename" : "holiday@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "holiday@3x.jpg",
+      "filename" : "holiday@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

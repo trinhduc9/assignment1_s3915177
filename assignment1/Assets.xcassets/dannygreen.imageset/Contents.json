@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "dannygreen.jpg",
+      "filename" : "dannygreen.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "dannygreen@2x.jpg",
+      "filename" : "dannygreen@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "dannygreen@3x.jpg",
+      "filename" : "dannygreen@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

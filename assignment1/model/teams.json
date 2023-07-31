@@ -326,7 +326,7 @@
                 "id": 2,
                 "playerName": "Cade Cunningham",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "cadecunningham"
             },
             {
                 "id": 28,
@@ -368,7 +368,7 @@
                 "id": 33,
                 "playerName": "Myles Turner",
                 "position": "Center-Foward",
-                "playerImageName": "mylesturners"
+                "playerImageName": "mylesturner"
             }
         ],
         "imageName": "Pacerlogo",
@@ -855,12 +855,6 @@
                 "playerName": "D'Angelo Russell",
                 "position": "Guard",
                 "playerImageName": "dangelo"
-            },
-            {
-                "id": 28,
-                "playerName": "Rui Hachimura",
-                "position": "Foward",
-                "playerImageName": "hachimura"
             }
         ],
         "imageName": "Lakerslogo",
@@ -1111,9 +1105,9 @@
             },
             {
                 "id": 1,
-                "playerName": "Victor Wembanyama",
-                "position": "Foward-Center",
-                "playerImageName": "wemby"
+                "playerName": "Devin Vassel",
+                "position": "Guard-Foward",
+                "playerImageName": "devinvassel"
             }
         ],
         "imageName": "Spurslogo",

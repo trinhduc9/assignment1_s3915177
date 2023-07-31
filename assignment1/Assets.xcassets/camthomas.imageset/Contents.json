@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "camthomas.jpg",
+      "filename" : "camthomas.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "camthomas@2x.jpg",
+      "filename" : "camthomas@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "camthomas@3x.jpg",
+      "filename" : "camthomas@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

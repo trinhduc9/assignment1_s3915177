@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "divincenzo.jpg",
+      "filename" : "divincenzo.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "divincenzo@2x.jpg",
+      "filename" : "divincenzo@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "divincenzo@3x.jpg",
+      "filename" : "divincenzo@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
