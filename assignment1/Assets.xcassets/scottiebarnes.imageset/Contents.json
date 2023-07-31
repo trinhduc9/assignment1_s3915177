@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "scottiebarnes.png",
+      "filename" : "scottiebarnes.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "scottiebarnes@2x.png",
+      "filename" : "scottiebarnes@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "scottiebarnes@3x.png",
+      "filename" : "scottiebarnes@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

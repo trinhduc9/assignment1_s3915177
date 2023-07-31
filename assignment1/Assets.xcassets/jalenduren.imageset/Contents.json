@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "jalenduren.png",
+      "filename" : "jalenduren.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "jalenduren@2x.png",
+      "filename" : "jalenduren@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "jalenduren@3x.png",
+      "filename" : "jalenduren@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

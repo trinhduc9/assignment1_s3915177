@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "donovanmitchell.png",
+      "filename" : "donovanmitchell.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "donovanmitchell@2x.png",
+      "filename" : "donovanmitchell@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "donovanmitchell@3x.png",
+      "filename" : "donovanmitchell@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

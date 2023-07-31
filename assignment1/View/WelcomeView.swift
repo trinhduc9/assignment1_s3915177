@@ -14,16 +14,17 @@
 import SwiftUI
 
 struct WelcomeView: View {
-    let authorName = "Trinh Van Minh Duc"
+    @Binding var active: Bool
+    let devName = "Trinh Van Minh Duc"
     let studentID = "123456"
-    let program = "Computer Science"
-
+    let program = "Software Engineering"
+    @State private var isShowingAlert = false
     var body: some View {
-        ZStack {
+        ZStack{
             Image("welcome-background")
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .edgesIgnoringSafeArea(.all)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .edgesIgnoringSafeArea(.all)
             VStack {
                 Image("logo")
                     .resizable()
@@ -36,37 +37,46 @@ struct WelcomeView: View {
                     .font(.subheadline)
                     .foregroundColor(.gray)
                 Spacer()
-                NavigationLink(destination: ListView()) {
-                    Text("Team List")
-                        .padding()
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
-                }
-                .padding()
+                Button(action: {
+                    active = false
+                }, label: {
+                    Capsule()
+                      .fill(Color.white.opacity(0.2))
+                      .padding(8)
+                      .frame(height:80)
+                      .overlay(Text("Team List")
+                        .font(.system(.title3, design: .rounded))
+                        .fontWeight(.bold)
+                        .foregroundColor(.white))
+                })
                 
                 Button(action: {
-                    let authorInfo = "Author: \(authorName)\nStudent ID: \(studentID)\nProgram: \(program)"
-                    showAlert(title: "App Author", message: authorInfo)
+                    isShowingAlert = true
                 }) {
                     Image(systemName: "info.circle")
                         .font(.title)
+                        .foregroundColor(.blue)
                 }
-                .padding()
+                .alert(isPresented: $isShowingAlert) {
+                    Alert(title: Text("Developer"),
+                          message: Text("Developer:\(devName)\nStudent ID: \(studentID)\nProgram: \(program)"),
+                          dismissButton: .default(Text("OK")));
+                }
             }
         }
     }
+}
 
     private func showAlert(title: String, message: String) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         
     }
-}
+
 
 
 struct WelcomeView_Previews: PreviewProvider {
     static var previews: some View {
-        WelcomeView()
+        WelcomeView(active: .constant(true))
     }
 }

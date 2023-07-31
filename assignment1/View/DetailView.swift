@@ -17,31 +17,39 @@ struct DetailView: View {
 
     var team: Team
     var body: some View {
-        ZStack{
-            VStack{
-                Text(team.teamName)
-                TeamLogoView(image: team.image)
-                HStack{
-                    Text("Description: ")
-                    Text(team.fullDes)
+        ScrollView{
+            ZStack{
+                VStack(alignment: .leading, spacing: 10) {
+                    Text(team.teamName)
+                        .bold()
+                        .font(.system(size: 30))
+                    TeamLogoView(image: team.image)
+                        .frame(maxWidth: .infinity, alignment: .center)
+                    HStack(alignment: .firstTextBaseline) {
+                        Text("Description: ")
+                        Text(team.fullDes)
+                    }.alignmentGuide(.leading, computeValue: {
+                        dimension in dimension[.leading]})
+                    HStack{
+                        Text("Home Court: ")
+                        Text(team.stadium.stadiumName)
+                    }
+                    HStack(alignment: .firstTextBaseline) {
+                        Text("Court Address: ")
+                        Text(team.stadium.address)
+                            .multilineTextAlignment(.leading)
+                            .lineLimit(nil)
+                            .frame(width: 250, height: 100)
+                    }
+                    MapPopupView(coordinate: team.locationCoordinate)
+                        .edgesIgnoringSafeArea(.top)
+                        .frame(height: 250)
+                    HStack{
+                        Text("Achievement: ")
+                        AchievementView(team: team)
+                    }
+                    PlayerListView(team: team)
                 }
-                HStack{
-                    Text("Home Court: ")
-                    Text(team.stadium.stadiumName)
-                }
-                HStack{
-                    Text("Court Address: ")
-                    Text(team.stadium.address)
-    
-                }
-                MapPopupView(coordinate: team.locationCoordinate)
-                    .edgesIgnoringSafeArea(.top)
-                    .frame(height: 250)
-                HStack{
-                    Text("Achievement: ")
-                    AchievementView(team: team)
-                }
-                PlayerListView(team: team)
             }
         }
     }

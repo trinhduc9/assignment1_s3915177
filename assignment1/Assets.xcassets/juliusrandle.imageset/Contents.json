@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "juliusrandle.png",
+      "filename" : "juliusrandle.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "juliusrandle@2x.png",
+      "filename" : "juliusrandle@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "juliusrandle@3x.png",
+      "filename" : "juliusrandle@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

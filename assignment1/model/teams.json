@@ -104,19 +104,19 @@
                 "id": 10,
                 "playerName": "Ben Simmons",
                 "position": "Guard-Foward",
-                "playerImageName": ""
+                "playerImageName": "bensimmons"
             },
             {
                 "id": 24,
                 "playerName": "Cam Thomas",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "camthomas"
             },
             {
                 "id": 1,
                 "playerName": "Mikal Bridges",
                 "position": "Guard-Foward",
-                "playerImageName": ""
+                "playerImageName": "mikalbridges"
             }
         ],
         "imageName": "Netslogo",
@@ -140,19 +140,19 @@
                 "id": 0,
                 "playerName": "Donte DiVincenzo",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "divincenzo"
             },
             {
                 "id": 9,
                 "playerName": "RJ Barrett",
                 "position": "Foward-Guard",
-                "playerImageName": ""
+                "playerImageName": "rjbarrett"
             },
             {
                 "id": 30,
                 "playerName": "Julius Randle",
                 "position": "Foward-Center",
-                "playerImageName": ""
+                "playerImageName": "juliusrandle"
             }
         ],
         "imageName": "Knickslogo",
@@ -176,19 +176,19 @@
                 "id": 21,
                 "playerName": "Joel Embiid",
                 "position": "Center-Foward",
-                "playerImageName": ""
+                "playerImageName": "embiid"
             },
             {
                 "id": 22,
                 "playerName": "Patrick Beverley",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "beverley"
             },
             {
                 "id": 1,
                 "playerName": "James Harden",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "harden"
             }
         ],
         "imageName": "76logo",
@@ -212,19 +212,19 @@
                 "id": 43,
                 "playerName": "Pascal Siakam",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "siakam"
             },
             {
                 "id": 17,
                 "playerName": "Dennis Schroder",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "schroder"
             },
             {
                 "id": 4,
                 "playerName": "Scottie Barnes",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "scottiebarnes"
             }
         ],
         "imageName": "Raptorslogo",
@@ -248,24 +248,19 @@
                 "id": 2,
                 "playerName": "Lonzo Ball",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "lonzoball"
             },
             {
                 "id": 8,
                 "playerName": "Zach LaVine",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "zachlavine"
             },
             {
                 "id": 3,
                 "playerName": "Andre Drummond",
                 "position": "Center",
-                "playerImageName": ""
-            },
-            {
-                "id": 5,
-                "playerName": "Derrick Jones Jr.",
-                "position": "Foward"
+                "playerImageName": "andredrummond"
             }
         ],
         "imageName": "Bullslogo",
@@ -289,19 +284,19 @@
                 "id": 45,
                 "playerName": "Donovan Mitchell",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "donovanmitchell"
             },
             {
                 "id": 13,
                 "playerName": "Ricky Rubio",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "rubio"
             },
             {
                 "id": 14,
                 "playerName": "Danny Green",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "dannygreen"
             }
         ],
         "imageName": "Cavlogo",
@@ -325,7 +320,7 @@
                 "id": 0,
                 "playerName": "Jalen Duren",
                 "position": "Center",
-                "playerImageName": ""
+                "playerImageName": "jalenduren"
             },
             {
                 "id": 2,
@@ -337,7 +332,7 @@
                 "id": 28,
                 "playerName": "Isaiah Stewart",
                 "position": "Foward-Center",
-                "playerImageName": ""
+                "playerImageName": "isaiahstewart"
             }
         ],
         "imageName": "Pistonslogo",
@@ -361,22 +356,22 @@
                 "id": 9,
                 "playerName": "T.J. McConnell",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "tjmcconnell"
             },
             {
                 "id": 10,
                 "playerName": "Kendall Brown",
                 "position": "Guard-Foward",
-                "playerImageName": ""
+                "playerImageName": "kendallbrown"
             },
             {
                 "id": 33,
                 "playerName": "Myles Turner",
                 "position": "Center-Foward",
-                "playerImageName": ""
+                "playerImageName": "mylesturners"
             }
         ],
-        "imageName": "Pacerslogo",
+        "imageName": "Pacerlogo",
         "coordinates": {
             "latitude": 39.76399,
             "longitude": -86.155566
@@ -397,25 +392,25 @@
                 "id": 34,
                 "playerName": "Giannis Antetokounmpo",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "giannis"
             },
             {
                 "id": 22,
                 "playerName": "Khris Middleton",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "middleton"
             },
             {
                 "id": 11,
                 "playerName": "Brook Lopez",
                 "position": "Center",
-                "playerImageName": ""
+                "playerImageName": "brooklopez"
             },
             {
                 "id": 21,
                 "playerName": "Jrue Holiday",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "holiday"
             }
         ],
         "imageName": "Buckslogo",
@@ -439,19 +434,19 @@
                 "id": 11,
                 "playerName": "Trae Young",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "traeyoung"
             },
             {
                 "id": 2,
                 "playerName": "Tren Forrest",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "trenforrest"
             },
             {
                 "id": 8,
                 "playerName": "Patty Mills",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "pattymills"
             }
         ],
         "imageName": "Hawkslogo",
@@ -475,19 +470,19 @@
                 "id": 1,
                 "playerName": "LaMelo Ball",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "lamelo"
             },
             {
                 "id": 25,
                 "playerName": "P.J. Washington",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "pjwashington"
             },
             {
                 "id": 4,
                 "playerName": "Nick Richards",
                 "position": "Center",
-                "playerImageName": ""
+                "playerImageName": "nickrichards"
             }
         ],
         "imageName": "Hornetslogo",
@@ -511,28 +506,28 @@
                 "id": 0,
                 "playerName": "Kevin Love",
                 "position": "Foward-Center",
-                "playerImageName": ""
+                "playerImageName": "kevinlove"
             },
             {
                 "id": 14,
                 "playerName": "Tyler Herro",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "tylerherro"
             },
             {
                 "id": 22,
                 "playerName": "Jimmy Butler",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "butler"
             },
             {
                 "id": 7,
                 "playerName": "Kyle Lowry",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "lowry"
             }
         ],
-        "imageName": "Heatslogo",
+        "imageName": "Heatlogo",
         "coordinates": {
             "latitude": 25.781401,
             "longitude": -80.186969
@@ -553,19 +548,19 @@
                 "id": 4,
                 "playerName": "Jalen Suggs",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "jalensuggs"
             },
             {
                 "id": 22,
                 "playerName": "Franz Wagner",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "franzwagner"
             },
             {
                 "id": 50,
                 "playerName": "Cole Anthony",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "coleanthony"
             }
         ],
         "imageName": "Magiclogo",
@@ -589,19 +584,19 @@
                 "id": 13,
                 "playerName": "Jordan Poole",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "jordanpoole"
             },
             {
                 "id": 20,
                 "playerName": "Kendrick Nunn",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "kendricknunn"
             },
             {
                 "id": 33,
                 "playerName": "Kyle Kuzma",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "kylekuzma"
             }
         ],
         "imageName": "Wizardslogo",
@@ -625,19 +620,19 @@
                 "id": 15,
                 "playerName": "Nikola Jokic",
                 "position": "Center",
-                "playerImageName": ""
+                "playerImageName": "jokic"
             },
             {
                 "id": 27,
                 "playerName": "Jamal Murray",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "jamalmurray"
             },
             {
                 "id": 6,
                 "playerName": "DeAndre Jordan",
                 "position": "Center",
-                "playerImageName": ""
+                "playerImageName": "deandrejordan"
             }
         ],
         "imageName": "Nuggetslogo",
@@ -661,19 +656,19 @@
                 "id": 32,
                 "playerName": "Karl-Anthony Towns",
                 "position": "Center-Foward",
-                "playerImageName": ""
+                "playerImageName": "karlanthony"
             },
             {
                 "id": 27,
                 "playerName": "Rudy Gobert",
                 "position": "Center",
-                "playerImageName": ""
+                "playerImageName": "rudygobert"
             },
             {
                 "id": 1,
                 "playerName": "Anthony Edwards",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "anthonyedwards"
             }
         ],
         "imageName": "Wolveslogo",
@@ -697,19 +692,19 @@
                 "id": 17,
                 "playerName": "Aleksej Pokusevski",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "pokusevski"
             },
             {
                 "id": 34,
                 "playerName": "Kenrich Williams",
                 "position": "Guard-Foward",
-                "playerImageName": ""
+                "playerImageName": "kenrickwilliams"
             },
             {
                 "id": 11,
                 "playerName": "Isaiah Joe",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "isaiahjoe"
             }
         ],
         "imageName": "OKClogo",
@@ -733,19 +728,19 @@
                 "id": 0,
                 "playerName": "Damian Lillard",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "damianlillard"
             },
             {
                 "id": 27,
                 "playerName": "Jusuf Nurkic",
                 "position": "Center",
-                "playerImageName": ""
+                "playerImageName": "jusufnurkic"
             },
             {
                 "id": 11,
                 "playerName": "Kevin Knox II",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "kevinknox"
             }
         ],
         "imageName": "Blazerslogo",
@@ -769,19 +764,19 @@
                 "id": 0,
                 "playerName": "Jordan Clarkson",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "jordanclarkson"
             },
             {
                 "id": 20,
                 "playerName": "John Collins",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "johncollins"
             },
             {
                 "id": 11,
                 "playerName": "Kris Dunn",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "krisdunn"
             }
         ],
         "imageName": "Jazzlogo",
@@ -805,19 +800,19 @@
                 "id": 0,
                 "playerName": "Russell Westbrook",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "westbrook"
             },
             {
                 "id": 2,
                 "playerName": "Kawhi Leonard",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "kawhi"
             },
             {
                 "id": 13,
                 "playerName": "Paul George",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "pg"
             }
         ],
         "imageName": "Clipperslogo",
@@ -841,31 +836,31 @@
                 "id": 23,
                 "playerName": "LeBron James",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "bron"
             },
             {
                 "id": 15,
                 "playerName": "Austin Reaves",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "austinreaves"
             },
             {
                 "id": 3,
                 "playerName": "Anthony Davis",
                 "position": "Foward-Center",
-                "playerImageName": ""
+                "playerImageName": "ad"
             },
             {
                 "id": 1,
                 "playerName": "D'Angelo Russell",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "dangelo"
             },
             {
                 "id": 28,
                 "playerName": "Rui Hachimura",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "hachimura"
             }
         ],
         "imageName": "Lakerslogo",
@@ -889,19 +884,19 @@
                 "id": 1,
                 "playerName": "Devin Booker",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "devinbooker"
             },
             {
                 "id": 3,
                 "playerName": "Bradley Beal",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "bradleybeal"
             },
             {
                 "id": 35,
                 "playerName": "Kevin Durant",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "kd"
             }
         ],
         "imageName": "Sunslogo",
@@ -925,19 +920,19 @@
                 "id": 5,
                 "playerName": "De'Aaron Fox",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "deaaronfox"
             },
             {
                 "id": 25,
                 "playerName": "Alex Len",
                 "position": "Center",
-                "playerImageName": ""
+                "playerImageName": "alexlen"
             },
             {
                 "id": 40,
                 "playerName": "Harrison Barnes",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "harrisonbarnes"
             }
         ],
         "imageName": "SacKingslogo",
@@ -961,19 +956,19 @@
                 "id": 77,
                 "playerName": "Luka Doncic",
                 "position": "Foward-Guard",
-                "playerImageName": ""
+                "playerImageName": "doncic"
             },
             {
                 "id": 30,
                 "playerName": "Seth Curry",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "sethcurry"
             },
             {
                 "id": 2,
                 "playerName": "Kyrie Irving",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "kyrie"
             }
         ],
         "imageName": "Mavslogo",
@@ -997,19 +992,19 @@
                 "id": 23,
                 "playerName": "Fred VanVleet",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "vanvleet"
             },
             {
                 "id": 4,
                 "playerName": "Jalen Green",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "jalengreen"
             },
             {
                 "id": 24,
                 "playerName": "Dillon Brooks",
                 "position": "Guard-Foward",
-                "playerImageName": ""
+                "playerImageName": "dillonbrooks"
             }
         ],
         "imageName": "Rocketslogo",
@@ -1033,19 +1028,19 @@
                 "id": 12,
                 "playerName": "Ja Morant",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "jamorant"
             },
             {
                 "id": 36,
                 "playerName": "Marcus Smart",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "marcussmart"
             },
             {
                 "id": 4,
                 "playerName": "Derrick Rose",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "drose"
             }
             
         ],
@@ -1070,19 +1065,19 @@
                 "id": 1,
                 "playerName": "Zion Williamson",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "zion"
             },
             {
                 "id": 3,
                 "playerName": "CJ McCollum",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "cjmccollum"
             },
             {
                 "id": 14,
                 "playerName": "Brandon Ingram",
                 "position": "Foward",
-                "playerImageName": ""
+                "playerImageName": "brandoningram"
             }
         ],
         "imageName": "Pelicanslogo",
@@ -1106,19 +1101,19 @@
                 "id": 23,
                 "playerName": "Zach Collins",
                 "position": "Foward-Center",
-                "playerImageName": ""
+                "playerImageName": "zachcollins"
             },
             {
                 "id": 4,
                 "playerName": "Devonte' Graham",
                 "position": "Guard",
-                "playerImageName": ""
+                "playerImageName": "devonte"
             },
             {
                 "id": 1,
                 "playerName": "Victor Wembanyama",
                 "position": "Foward-Center",
-                "playerImageName": ""
+                "playerImageName": "wemby"
             }
         ],
         "imageName": "Spurslogo",

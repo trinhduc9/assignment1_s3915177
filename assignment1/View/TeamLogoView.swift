@@ -12,6 +12,9 @@ struct TeamLogoView: View {
     
     var body: some View {
         image
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 200, height: 200)
             .clipShape(Circle())
             .overlay(Circle().stroke(Color(.white),lineWidth: 4))
             .shadow(radius: 7)

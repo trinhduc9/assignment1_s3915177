@@ -16,15 +16,13 @@ import MapKit
 
 struct MapPopupView: View {
     var coordinate: CLLocationCoordinate2D
-
-
     @State private var region = MKCoordinateRegion()
     var body: some View {
         VStack{
             Map(coordinateRegion: $region)
-                .onAppear {
-                    setRegion(coordinate)
-                }
+            .onAppear {
+                setRegion(coordinate)
+            }
         }
     }
     private func setRegion(_ coordinate: CLLocationCoordinate2D) {

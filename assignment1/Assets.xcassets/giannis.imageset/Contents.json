@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "giannis.png",
+      "filename" : "giannis.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "giannis@2x.png",
+      "filename" : "giannis@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "giannis@3x.png",
+      "filename" : "giannis@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

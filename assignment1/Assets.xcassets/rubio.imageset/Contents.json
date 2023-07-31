@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "rubio.png",
+      "filename" : "rubio.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "rubio@2x.png",
+      "filename" : "rubio@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "rubio@3x.png",
+      "filename" : "rubio@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

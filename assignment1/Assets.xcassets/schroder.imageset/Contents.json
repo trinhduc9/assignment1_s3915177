@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "schroder.png",
+      "filename" : "schroder.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "schroder@2x.png",
+      "filename" : "schroder@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "schroder@3x.png",
+      "filename" : "schroder@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

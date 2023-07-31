@@ -18,9 +18,13 @@ struct TeamCard: View {
         HStack {
             team.image
                 .resizable()
-                .frame(width: 50, height: 50)
-            VStack{
+                .frame(width: 75, height: 75)
+            VStack(alignment: .leading, spacing: 10){
                 Text(team.teamName)
+                    .font(.system(size: 20))
+                    .bold()
+                    .alignmentGuide(.leading, computeValue: {
+                        dimension in dimension[.leading]})
                 Text(team.shortDes)
             }
         }

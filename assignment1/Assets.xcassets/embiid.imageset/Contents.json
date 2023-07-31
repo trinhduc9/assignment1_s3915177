@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "embiid.png",
+      "filename" : "embiid.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "embiid@2x.png",
+      "filename" : "embiid@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "embiid@3x.png",
+      "filename" : "embiid@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

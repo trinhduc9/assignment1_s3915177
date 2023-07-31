@@ -13,8 +13,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isWelcomeActive: Bool = true
     var body: some View {
-        WelcomeView()
+        ZStack {
+            if isWelcomeActive {
+                WelcomeView(active: $isWelcomeActive)
+            } else {
+                ListView()
+            }
+        }
     }
 }
 

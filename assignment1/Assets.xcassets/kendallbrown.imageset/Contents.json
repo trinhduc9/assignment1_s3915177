@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "kendallbrown.png",
+      "filename" : "kendallbrown.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "kendallbrown@2x.png",
+      "filename" : "kendallbrown@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "kendallbrown@3x.png",
+      "filename" : "kendallbrown@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

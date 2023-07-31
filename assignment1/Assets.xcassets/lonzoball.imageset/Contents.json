@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "lonzoball.png",
+      "filename" : "lonzoball.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "lonzoball@2x.png",
+      "filename" : "lonzoball@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "lonzoball@3x.png",
+      "filename" : "lonzoball@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

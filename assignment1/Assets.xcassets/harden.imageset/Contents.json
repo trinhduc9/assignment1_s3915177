@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "harden.png",
+      "filename" : "harden.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "harden@2x.png",
+      "filename" : "harden@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "harden@3x.png",
+      "filename" : "harden@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
