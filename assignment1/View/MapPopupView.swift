@@ -15,19 +15,26 @@ import SwiftUI
 import MapKit
 
 struct MapPopupView: View {
-    var coordinate: CLLocationCoordinate2D
+    var team : Team
+    
     @State private var region = MKCoordinateRegion()
     var body: some View {
         VStack{
-            Map(coordinateRegion: $region)
+            Map(coordinateRegion: $region,
+            annotationItems: [team]){
+                team in
+                MapAnnotation(coordinate: team.locationCoordinate) {
+                    MapAnnotationView()
+                }
+            }
             .onAppear {
-                setRegion(coordinate)
+                setRegion(team.locationCoordinate)
             }
         }
     }
-    private func setRegion(_ coordinate: CLLocationCoordinate2D) {
+    private func setRegion(_ coordinate: team.locationCoordinate) {
         region = MKCoordinateRegion(
-            center: coordinate,
+            center: team.locationCoordinate,
             span: MKCoordinateSpan(latitudeDelta: 0.004, longitudeDelta: 0.004)
         )
     }
