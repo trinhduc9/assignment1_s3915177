@@ -20,6 +20,7 @@ struct Team: Identifiable, Codable{
     var stadium: Stadium
     var shortDes: String
     var fullDes: String
+    var region: String
     var achievement: Array<Int>
     var roster: Array<Player>
     

@@ -8,6 +8,7 @@
         },
         "shortDes": "4x times NBA championo in the last 10 years",
         "fullDes": "This is a long description",
+        "region": "Pacific",
         "achievement": [1947, 1956, 1975, 2015, 2017, 2018, 2022] ,
         "roster": [
             {
@@ -56,6 +57,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Atlantic",
         "achievement": [1957, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1968, 1969, 1974, 1976, 1981, 1984, 1986, 2008] ,
         "roster": [
             {
@@ -98,6 +100,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Atlantic",
         "achievement": [] ,
         "roster": [
             {
@@ -134,6 +137,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Atlantic",
         "achievement": [1970, 1973] ,
         "roster": [
             {
@@ -170,6 +174,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Atlantic",
         "achievement": [1955, 1967, 1983] ,
         "roster": [
             {
@@ -206,6 +211,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Atlantic",
         "achievement": [2019] ,
         "roster": [
             {
@@ -242,6 +248,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Central",
         "achievement": [1991, 1992, 1993, 1996, 1997, 1998] ,
         "roster": [
             {
@@ -278,6 +285,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Central",
         "achievement": [2016] ,
         "roster": [
             {
@@ -314,6 +322,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Central",
         "achievement": [1989, 1990, 2004] ,
         "roster": [
             {
@@ -350,6 +359,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Central",
         "achievement": [] ,
         "roster": [
             {
@@ -386,6 +396,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Central",
         "achievement": [1971, 2021] ,
         "roster": [
             {
@@ -428,6 +439,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Southeast",
         "achievement": [1958] ,
         "roster": [
             {
@@ -464,6 +476,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Southeast",
         "achievement": [] ,
         "roster": [
             {
@@ -500,6 +513,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Southeast",
         "achievement": [2006, 2012, 2013] ,
         "roster": [
             {
@@ -542,6 +556,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Southeast",
         "achievement": [] ,
         "roster": [
             {
@@ -578,6 +593,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Southeast",
         "achievement": [1978] ,
         "roster": [
             {
@@ -614,6 +630,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Northwest",
         "achievement": [2023] ,
         "roster": [
             {
@@ -650,6 +667,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Northwest",
         "achievement": [] ,
         "roster": [
             {
@@ -686,6 +704,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Northwest",
         "achievement": [1979] ,
         "roster": [
             {
@@ -722,6 +741,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Northwest",
         "achievement": [1977] ,
         "roster": [
             {
@@ -758,6 +778,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Northwest",
         "achievement": [] ,
         "roster": [
             {
@@ -794,6 +815,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Pacific",
         "achievement": [] ,
         "roster": [
             {
@@ -830,6 +852,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Pacific",
         "achievement": [1949, 1950, 1952, 1953, 1954, 1972, 1980, 1982, 1985, 1987, 1988, 2000, 2001, 2002, 2009, 2010, 2020] ,
         "roster": [
             {
@@ -872,6 +895,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Pacific",
         "achievement": [] ,
         "roster": [
             {
@@ -908,6 +932,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Pacific",
         "achievement": [1951] ,
         "roster": [
             {
@@ -944,6 +969,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Southwest",
         "achievement": [2011] ,
         "roster": [
             {
@@ -980,6 +1006,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Southwest",
         "achievement": [1994, 1995] ,
         "roster": [
             {
@@ -1016,6 +1043,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Southwest",
         "achievement": [] ,
         "roster": [
             {
@@ -1053,6 +1081,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Southwest",
         "achievement": [] ,
         "roster": [
             {
@@ -1089,6 +1118,7 @@
         },
         "shortDes": "",
         "fullDes": "",
+        "region": "Southwest",
         "achievement": [1999, 2003, 2005, 2007, 2014] ,
         "roster": [
             {
