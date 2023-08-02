@@ -16,10 +16,11 @@ import MapKit
 
 struct MapPopupView: View {
     var team : Team
-    
+    let didClose: () -> Void
     @State private var region = MKCoordinateRegion()
     var body: some View {
         VStack{
+            
             Map(coordinateRegion: $region,
             annotationItems: [team]){
                 team in
@@ -27,10 +28,14 @@ struct MapPopupView: View {
                     MapAnnotationView()
                 }
             }
+            .edgesIgnoringSafeArea(.top)
+            .frame(height: 350)
             .onAppear {
                 setRegion(team: team)
             }
-        }
+        }.overlay(alignment: .topTrailing){
+            close
+        }.transition(.move(edge: .bottom))
     }
     private func setRegion(team: Team) {
         region = MKCoordinateRegion(
@@ -43,7 +48,7 @@ struct MapPopupView: View {
 private extension MapPopupView {
     var close: some View {
         Button{
-
+            didClose()
         }label: {
             Image(systemName: "xmark")
                 .symbolVariant(.circle.fill)
@@ -52,7 +57,7 @@ private extension MapPopupView {
                             weight: .bold,
                             design: .rounded)
                 )
-                .foregroundStyle(.gray.opacity(0.4))
+                .foregroundStyle(.gray.opacity(0.8))
                 .padding(8)
         }
     }
@@ -60,6 +65,6 @@ private extension MapPopupView {
 
 struct MapPopupView_Previews: PreviewProvider {
     static var previews: some View {
-        MapPopupView(team: teams[0])
+        MapPopupView(team: teams[0]){}
     }
 }

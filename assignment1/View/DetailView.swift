@@ -14,7 +14,7 @@ import SwiftUI
 struct DetailView: View {
 
     @EnvironmentObject var popupManager: PopupManager
-
+    let isDark: Bool
     var team: Team
     var body: some View {
         ScrollView{
@@ -33,28 +33,43 @@ struct DetailView: View {
                     HStack(alignment: .firstTextBaseline){
                         Text("Home Court: ")
                         Text(team.stadium.stadiumName)
+                        Image(systemName:"square.and.arrow.up")
+                            .foregroundColor(isDark ? .white : .black)
+                            .onTapGesture {
+                                withAnimation {
+                                    popupManager.present()
+                                }
+                            }
                     }
                     HStack(alignment: .firstTextBaseline) {
                         Text("Court Address: ")
                         Text(team.stadium.address)
                     }
-                    MapPopupView(team: team)
-                        .edgesIgnoringSafeArea(.top)
-                        .frame(height: 250)
+                    
                     HStack(alignment: .firstTextBaseline){
                         Text("Achievement: ")
                         AchievementView(team: team)
                     }
                     PlayerListView(team: team)
-                }.padding(.horizontal)
-            }
+                }
+                .overlay(alignment: .bottom){
+                    if popupManager.action.isPresented {
+                        MapPopupView(team: team){
+                            withAnimation {
+                                popupManager.dismiss()
+                            }
+                        }
+                    }
+                }
+                .ignoresSafeArea()
+            }.padding(.horizontal)
         }
     }
 }
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView(team: teams[0])
+        DetailView(isDark: false, team: teams[0])
             .environmentObject(PopupManager())
     }
 }

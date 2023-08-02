@@ -13,6 +13,7 @@
 import Foundation
 
 final class PopupManager: ObservableObject {
+    
     enum Action {
         case na
         case present

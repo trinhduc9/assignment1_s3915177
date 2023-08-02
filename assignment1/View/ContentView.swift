@@ -14,12 +14,14 @@ import SwiftUI
 
 struct ContentView: View {
     @State var isWelcomeActive: Bool = true
+    @EnvironmentObject var popupManager: PopupManager
     var body: some View {
         ZStack {
             if isWelcomeActive {
                 WelcomeView(active: $isWelcomeActive)
             } else {
                 ListView()
+                    .environmentObject(popupManager)
             }
         }
     }
@@ -28,5 +30,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(PopupManager())
     }
 }

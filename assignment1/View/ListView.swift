@@ -12,9 +12,13 @@
 import SwiftUI
 
 struct ListView: View {
-    @AppStorage("isDarkMode") private var isDark = false
+    
+    @EnvironmentObject var popupManager: PopupManager
+    
+    @State private var isDark = false
     @State private var searchText = ""
     @State private var selectedRegion = "All"
+    
     let regions = ["All", "Pacific", "Atlantic", "Central", "South-east", "South-west", "North-west"]
     var regionsInLine1: [String] {
             Array(regions.prefix(3))
@@ -55,7 +59,8 @@ struct ListView: View {
                 List(searchResults){
                     team in
                     NavigationLink{
-                        DetailView(team: team)
+                        DetailView( isDark: isDark, team: team)
+                            .environmentObject(popupManager)
                     } label: {
                         TeamCard(team: team)
                     }
@@ -99,5 +104,6 @@ struct ListView: View {
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
         ListView()
+            .environmentObject(PopupManager())
     }
 }
