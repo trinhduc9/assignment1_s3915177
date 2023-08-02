@@ -25,41 +25,41 @@ struct WelcomeView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
+                .opacity(0.4)
             VStack {
                 Image("logo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 200, height: 200)
-                Text("NBA Info")
+                Text("Bucket Money")
                     .font(.title)
                     .fontWeight(.bold)
                 Text("Know your teams, know your bets")
                     .font(.subheadline)
-                    .foregroundColor(.gray)
+                    .foregroundColor(.black)
                 Spacer()
                 Button(action: {
                     active = false
                 }, label: {
                     Capsule()
-                      .fill(Color.white.opacity(0.2))
-                      .padding(8)
-                      .frame(height:80)
+                      .fill(Color.black.opacity(0.9))
+                      .padding(10)
+                      .frame(width:250, height:80)
                       .overlay(Text("Team List")
                         .font(.system(.title3, design: .rounded))
                         .fontWeight(.bold)
                         .foregroundColor(.white))
                 })
-                
                 Button(action: {
                     isShowingAlert = true
                 }) {
                     Image(systemName: "info.circle")
                         .font(.title)
-                        .foregroundColor(.blue)
+                        .foregroundColor(.black)
                 }
                 .alert(isPresented: $isShowingAlert) {
-                    Alert(title: Text("Developer"),
-                          message: Text("Developer:\(devName)\nStudent ID: \(studentID)\nProgram: \(program)"),
+                    Alert(title: Text("Developer Info"),
+                          message: Text("Developer: \(devName)\nStudent ID: \(studentID)\nProgram: \(program)"),
                           dismissButton: .default(Text("OK")));
                 }
             }
