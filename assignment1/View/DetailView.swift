@@ -18,7 +18,7 @@ struct DetailView: View {
     var team: Team
     var body: some View {
         ScrollView{
-            ZStack{
+            ZStack {
                 VStack(alignment: .leading, spacing: 10) {
                     Text(team.teamName)
                         .bold()
@@ -37,9 +37,6 @@ struct DetailView: View {
                     HStack(alignment: .firstTextBaseline) {
                         Text("Court Address: ")
                         Text(team.stadium.address)
-                            .multilineTextAlignment(.leading)
-                            .lineLimit(nil)
-                            .frame(width: 250, height: 100)
                     }
                     MapPopupView(team: team)
                         .edgesIgnoringSafeArea(.top)
@@ -49,7 +46,7 @@ struct DetailView: View {
                         AchievementView(team: team)
                     }
                     PlayerListView(team: team)
-                }
+                }.padding(.horizontal)
             }
         }
     }

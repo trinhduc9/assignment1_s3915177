@@ -31,6 +31,7 @@ struct WelcomeView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 200, height: 200)
+                    .shadow(color: Color.black, radius: 20, x: 0, y: 10)
                 Text("Bucket Money")
                     .font(.title)
                     .fontWeight(.bold)
@@ -67,11 +68,12 @@ struct WelcomeView: View {
     }
 }
 
-    private func showAlert(title: String, message: String) {
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-        
-    }
+private func showAlert(title: String, message: String) {
+    let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+    alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+    
+}
+
 
 
 

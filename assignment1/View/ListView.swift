@@ -53,24 +53,27 @@ struct ListView: View {
                     }
                 }
                 List(searchResults){
-                    //ForEach(searchResults) {
                     team in
                     NavigationLink{
                         DetailView(team: team)
                     } label: {
                         TeamCard(team: team)
                     }
-                    //}
-                    
                 }
-                .navigationTitle("NBA Teams")
-                .toolbar{
-                    ToolbarItem(placement: ToolbarItemPlacement.navigationBarTrailing){
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarLeading) {
+                        Text("NBA Teams")
+                            .font(.system(size: 34, weight: .bold))
+                            .foregroundColor(isDark ? .white : .black)
+                        Spacer()
+                    }
+                    ToolbarItem(placement: .navigationBarTrailing) {
                         Button(action: {
                             isDark.toggle()
-                        },label: {
-                            isDark ? Label("Dark", systemImage: "lightbulb.fill") : Label("Dark", systemImage: "lightbulb")
-                        })
+                        }) {
+                            Image(systemName: isDark ? "moon.fill" : "sun.max")
+                                .foregroundColor(isDark ? .white : .black)
+                        }
                     }
                 }
             }
