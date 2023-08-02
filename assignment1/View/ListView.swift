@@ -33,8 +33,8 @@ struct ListView: View {
                         }) {
                             Text(region)
                                 .padding(5)
-                                .foregroundColor(selectedRegion == region ? .white : .blue)
-                                .background(selectedRegion == region ? Color.blue : Color.clear)
+                                .foregroundColor(selectedRegion == region ? (isDark ? Color.black : Color.white) : (isDark ? Color.white : Color.black))
+                                .background(selectedRegion == region ? (isDark ? Color.white : Color.black) : Color.clear)
                                 .cornerRadius(8)
                         }
                     }
@@ -46,8 +46,8 @@ struct ListView: View {
                         }) {
                             Text(region)
                                 .padding(5)
-                                .foregroundColor(selectedRegion == region ? .white : .blue)
-                                .background(selectedRegion == region ? Color.blue : Color.clear)
+                                .foregroundColor(selectedRegion == region ? (isDark ? Color.black : Color.white) : (isDark ? Color.white : Color.black))
+                                .background(selectedRegion == region ? (isDark ? Color.white : Color.black) : Color.clear)
                                 .cornerRadius(8)
                         }
                     }
