@@ -6,7 +6,7 @@
             "stadiumName": "Chase Center",
             "address": "1 Warriors Way, San Francisco, CA 94158, United States"
         },
-        "shortDes": "4x times NBA championo in the last 10 years",
+        "shortDes": "Legendary team with a 73-9 record",
         "fullDes": "This is a long description",
         "region": "Pacific",
         "achievement": [1947, 1956, 1975, 2015, 2017, 2018, 2022] ,
@@ -55,7 +55,7 @@
             "stadiumName": "TD Garden",
             "address": "100 Legends Way, Boston, MA 02114, United States"
         },
-        "shortDes": "",
+        "shortDes": "The only team left from the original NBA",
         "fullDes": "",
         "region": "Atlantic",
         "achievement": [1957, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1968, 1969, 1974, 1976, 1981, 1984, 1986, 2008] ,
@@ -98,7 +98,7 @@
             "stadiumName": "Barclays Center",
             "address": "620 Atlantic Ave, Brooklyn, NY 11217, United States"
         },
-        "shortDes": "",
+        "shortDes": "Use to have a superteam",
         "fullDes": "",
         "region": "Atlantic",
         "achievement": [] ,
@@ -135,7 +135,7 @@
             "stadiumName": "Madison Square Garden",
             "address": "4 Pennsylvania Plaza, New York, NY 10001, United States"
         },
-        "shortDes": "",
+        "shortDes": "A historic franchise",
         "fullDes": "",
         "region": "Atlantic",
         "achievement": [1970, 1973] ,
@@ -172,7 +172,7 @@
             "stadiumName": "Wells Fargo Center",
             "address": "3601 S Broad St, Philadelphia, PA 19148, United States"
         },
-        "shortDes": "",
+        "shortDes": "Home of 2023 MVP: Joel Embiid",
         "fullDes": "",
         "region": "Atlantic",
         "achievement": [1955, 1967, 1983] ,
@@ -209,7 +209,7 @@
             "stadiumName": "Scotiabank Arena",
             "address": "40 Bay St., Toronto, ON M5J 2X2, Canada"
         },
-        "shortDes": "",
+        "shortDes": "The only team from the north",
         "fullDes": "",
         "region": "Atlantic",
         "achievement": [2019] ,
@@ -246,7 +246,7 @@
             "stadiumName": "United Center",
             "address": "1901 W Madison St, Chicago, IL 60612, United States"
         },
-        "shortDes": "",
+        "shortDes": "The first ever to have a 2 times 3-peat in NBA history",
         "fullDes": "",
         "region": "Central",
         "achievement": [1991, 1992, 1993, 1996, 1997, 1998] ,
@@ -283,7 +283,7 @@
             "stadiumName": "Rocket Mortgage FieldHouse",
             "address": "1 Center Court, Cleveland, OH 44115, United States"
         },
-        "shortDes": "",
+        "shortDes": "The Cavs, won their first championship in 2016 with LeBron James",
         "fullDes": "",
         "region": "Central",
         "achievement": [2016] ,
@@ -320,7 +320,7 @@
             "stadiumName": "Little Caesars Arena",
             "address": "2645 Woodward Ave, Detroit, MI 48201, United States"
         },
-        "shortDes": "",
+        "shortDes": "Worst team in 2022-2023 season",
         "fullDes": "",
         "region": "Central",
         "achievement": [1989, 1990, 2004] ,
@@ -357,7 +357,7 @@
             "stadiumName": "Bankers Life Fieldhouse",
             "address": "125 S Pennsylvania St, Indianapolis, IN 46204, United States"
         },
-        "shortDes": "",
+        "shortDes": "The only team representing Indiana",
         "fullDes": "",
         "region": "Central",
         "achievement": [] ,
@@ -394,7 +394,7 @@
             "stadiumName": "Fiserv Forum",
             "address": "1111 Vel R. Phillips Ave, Milwaukee, WI 53203, United States"
         },
-        "shortDes": "",
+        "shortDes": "Home of the Greek Freak",
         "fullDes": "",
         "region": "Central",
         "achievement": [1971, 2021] ,
@@ -437,7 +437,7 @@
             "stadiumName": "State Farm Arena",
             "address": "1 State Farm Dr, Atlanta, GA 30303, United States"
         },
-        "shortDes": "",
+        "shortDes": "Trae Young carry the team",
         "fullDes": "",
         "region": "South-east",
         "achievement": [1958] ,
@@ -474,7 +474,7 @@
             "stadiumName": "Spectrum Center",
             "address": "333 E Trade St, Charlotte, NC 28202, United States"
         },
-        "shortDes": "",
+        "shortDes": "LaMelo who?",
         "fullDes": "",
         "region": "South-east",
         "achievement": [] ,
@@ -511,7 +511,7 @@
             "stadiumName": "Kaseya Center",
             "address": "601 Biscayne Blvd, Miami, FL 33132, United States"
         },
-        "shortDes": "",
+        "shortDes": "The 2023 Eastern Conference Champion",
         "fullDes": "",
         "region": "South-east",
         "achievement": [2006, 2012, 2013] ,
@@ -554,7 +554,7 @@
             "stadiumName": "Amway Center",
             "address": "400 W Church St, Orlando, FL 32801, United States"
         },
-        "shortDes": "",
+        "shortDes": "Shaq's debut",
         "fullDes": "",
         "region": "South-east",
         "achievement": [] ,
@@ -591,7 +591,7 @@
             "stadiumName": "Capital One Arena",
             "address": "601 F St NW, Washington, DC 20004, United States"
         },
-        "shortDes": "",
+        "shortDes": "Michael Jordan's retirement home",
         "fullDes": "",
         "region": "South-east",
         "achievement": [1978] ,
@@ -628,7 +628,7 @@
             "stadiumName": "Ball Arena",
             "address": "1000 Chopper Cir, Denver, CO 80204, United States"
         },
-        "shortDes": "",
+        "shortDes": "The 2022-2023 Champion",
         "fullDes": "",
         "region": "North-west",
         "achievement": [2023] ,
@@ -665,7 +665,7 @@
             "stadiumName": "Target Center",
             "address": "600 N 1st Ave, Minneapolis, MN 55403, United States"
         },
-        "shortDes": "",
+        "shortDes": "A playoff contender team",
         "fullDes": "",
         "region": "North-west",
         "achievement": [] ,
@@ -702,7 +702,7 @@
             "stadiumName": "Paycom Center",
             "address": "100 W Reno Ave, Oklahoma City, OK 73102, United States"
         },
-        "shortDes": "",
+        "shortDes": "Used to be a good team",
         "fullDes": "",
         "region": "North-west",
         "achievement": [1979] ,
@@ -739,7 +739,7 @@
             "stadiumName": "Moda Center",
             "address": "1 N Center Ct St, Portland, OR 97227, United States"
         },
-        "shortDes": "",
+        "shortDes": "Known for Damian Lillard only",
         "fullDes": "",
         "region": "North-west",
         "achievement": [1977] ,
@@ -776,7 +776,7 @@
             "stadiumName": "Delta Center",
             "address": "301 S Temple, Salt Lake City, UT 84101, United States"
         },
-        "shortDes": "",
+        "shortDes": "A mid team",
         "fullDes": "",
         "region": "North-west",
         "achievement": [] ,
@@ -813,7 +813,7 @@
             "stadiumName": "Crypto.com Arena",
             "address": "1111 S Figueroa St, Los Angeles, CA 90015, United States"
         },
-        "shortDes": "",
+        "shortDes": "A strong 22024 NBA championship contender",
         "fullDes": "",
         "region": "Pacific",
         "achievement": [] ,
@@ -850,7 +850,7 @@
             "stadiumName": "Crypto.com Arena",
             "address": "1111 S Figueroa St, Los Angeles, CA 90015, United States"
         },
-        "shortDes": "",
+        "shortDes": "Legendary franchise, home of the legendary Black Mamba",
         "fullDes": "",
         "region": "Pacific",
         "achievement": [1949, 1950, 1952, 1953, 1954, 1972, 1980, 1982, 1985, 1987, 1988, 2000, 2001, 2002, 2009, 2010, 2020] ,
@@ -893,7 +893,7 @@
             "stadiumName": "Footprint Center",
             "address": "201 E Jefferson St, Phoenix, AZ 85004, United States"
         },
-        "shortDes": "",
+        "shortDes": "Got potetial with KD joining",
         "fullDes": "",
         "region": "Pacific",
         "achievement": [] ,
@@ -930,7 +930,7 @@
             "stadiumName": "Golden 1 Center",
             "address": "500 David J Stern Walk, Sacramento, CA 95814, United States"
         },
-        "shortDes": "",
+        "shortDes": "A surpised run to finish top 3 in Western Conference",
         "fullDes": "",
         "region": "Pacific",
         "achievement": [1951] ,
@@ -967,7 +967,7 @@
             "stadiumName": "American Airlines Center",
             "address": "2500 Victory Ave, Dallas, Texas, United States"
         },
-        "shortDes": "",
+        "shortDes": "Upcoming championship contender with the join of Kyrie Irving",
         "fullDes": "",
         "region": "South-west",
         "achievement": [2011] ,
@@ -1004,7 +1004,7 @@
             "stadiumName": "Toyota Center",
             "address": "1510 Polk St, Houston, TX 77002, United States"
         },
-        "shortDes": "",
+        "shortDes": "Could be good this season",
         "fullDes": "",
         "region": "South-west",
         "achievement": [1994, 1995] ,
@@ -1041,7 +1041,7 @@
             "stadiumName": "FedExForum",
             "address": "191 Beale St, Memphis, TN 38103, United States"
         },
-        "shortDes": "",
+        "shortDes": "Might improve this season with the join of Marcus Smart",
         "fullDes": "",
         "region": "South-west",
         "achievement": [] ,
@@ -1079,7 +1079,7 @@
             "stadiumName": "Smoothie King Center",
             "address": "1501 Dave Dixon Dr, New Orleans, LA 70113, United States"
         },
-        "shortDes": "",
+        "shortDes": "The youngest NBA franchise",
         "fullDes": "",
         "region": "South-west",
         "achievement": [] ,
@@ -1116,7 +1116,7 @@
             "stadiumName": "AT&T Center",
             "address": "1 AT&T Center Parkway, San Antonio, TX 78219, United States"
         },
-        "shortDes": "",
+        "shortDes": "Home of the legendary coach Pop",
         "fullDes": "",
         "region": "South-west",
         "achievement": [1999, 2003, 2005, 2007, 2014] ,
