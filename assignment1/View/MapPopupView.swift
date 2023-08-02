@@ -28,11 +28,11 @@ struct MapPopupView: View {
                 }
             }
             .onAppear {
-                setRegion(team.locationCoordinate)
+                setRegion(team: team)
             }
         }
     }
-    private func setRegion(_ coordinate: team.locationCoordinate) {
+    private func setRegion(team: Team) {
         region = MKCoordinateRegion(
             center: team.locationCoordinate,
             span: MKCoordinateSpan(latitudeDelta: 0.004, longitudeDelta: 0.004)
@@ -60,6 +60,6 @@ private extension MapPopupView {
 
 struct MapPopupView_Previews: PreviewProvider {
     static var previews: some View {
-        MapPopupView(coordinate: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868))
+        MapPopupView(team: teams[0])
     }
 }

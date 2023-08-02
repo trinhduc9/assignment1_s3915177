@@ -16,9 +16,9 @@ import SwiftUI
 struct MapAnnotationView: View{
 
     var body: some View {
-        VStack(spaceing: 0) {
-            Image(systemName: "stadium.fill")
-                .resizeable()
+        VStack(spacing: 0) {
+            Image(systemName: "sportscourt.circle.fill")
+                .resizable()
                 .scaledToFit()
                 .frame(width: 30, height: 30)
                 .font(.headline)
@@ -27,13 +27,13 @@ struct MapAnnotationView: View{
                 .background(.black)
                 .cornerRadius(36)
 
-            Image(systemName: "triangle.file")
-                .resizeable()
+            Image(systemName: "triangle.fill")
+                .resizable()
                 .scaledToFit()
                 .foregroundColor(.black)
-                .frame(width: 10, height: 10)
+                .frame(width: 15, height: 10)
                 .rotationEffect(Angle(degrees: 180))
-                .offset(y: -3)
+                .offset(y: -2)
                 .padding(.bottom, 40)
         }
     }

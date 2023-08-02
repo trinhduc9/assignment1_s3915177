@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "jalenbrown.png",
+      "filename" : "jaylenbrown.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "jalenbrown@2x.png",
+      "filename" : "jaylenbrown@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "jalenbrown@3x.png",
+      "filename" : "jaylenbrown@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

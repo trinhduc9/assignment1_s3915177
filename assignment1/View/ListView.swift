@@ -14,18 +14,58 @@ import SwiftUI
 struct ListView: View {
     @AppStorage("isDarkMode") private var isDark = false
     @State private var searchText = ""
+    @State private var selectedRegion = "All"
+    let regions = ["All", "Pacific", "Atlantic", "Central", "South-east", "South-west", "North-west"]
+    var regionsInLine1: [String] {
+            Array(regions.prefix(3))
+        }
+    var regionsInLine2: [String] {
+        Array(regions.suffix(4))
+    }
+    
     var body: some View {
         NavigationView {
-            List(teams){
-                ForEach(searchResults) {team in
+            VStack{
+                HStack {
+                    ForEach(regionsInLine1, id: \.self) { region in
+                        Button(action: {
+                            selectedRegion = region
+                        }) {
+                            Text(region)
+                                .padding(5)
+                                .foregroundColor(selectedRegion == region ? .white : .blue)
+                                .background(selectedRegion == region ? Color.blue : Color.clear)
+                                .cornerRadius(8)
+                        }
+                    }
+                }
+                HStack {
+                    ForEach(regionsInLine2, id: \.self) { region in
+                        Button(action: {
+                            selectedRegion = region
+                        }) {
+                            Text(region)
+                                .padding(5)
+                                .foregroundColor(selectedRegion == region ? .white : .blue)
+                                .background(selectedRegion == region ? Color.blue : Color.clear)
+                                .cornerRadius(8)
+                        }
+                    }
+                }
+                List(searchResults){
+                    //ForEach(searchResults) {
+                    team in
                     NavigationLink{
                         DetailView(team: team)
                     } label: {
                         TeamCard(team: team)
                     }
+                    //}
+                    
                 }
+                .navigationTitle("NBA Teams")
                 .toolbar{
-                    ToobarItem(placement: ToolbarItemPlacement.navigationBarTrailing){
+                    ToolbarItem(placement: ToolbarItemPlacement.navigationBarTrailing){
                         Button(action: {
                             isDark.toggle()
                         },label: {
@@ -33,17 +73,19 @@ struct ListView: View {
                         })
                     }
                 }
-                .environment(\.colorScheme, isDark ? .dark : .light)
-                .navigationTitle("NBA Teams")
             }
-        }.searchable(text: $searchText, prompt: "Looking for a specific team?", placement: .navigationBarDrawer(displayMode: .always))
+        }
+        .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Looking for a specific team?")
+        .environment(\.colorScheme, isDark ? .dark : .light)
     }
-
-    var searchResults: [String] {
-        if searchText.isEmpty {
-            return names
+    var searchResults: [Team] {
+        if selectedRegion != "All" {
+            return teams.filter { $0.region == selectedRegion }
+        }
+        else if searchText.isEmpty {
+            return teams
         } else {
-            return names.filter { $0.localizedCaseInsensitiveContains(searchText) }
+            return teams.filter { $0.teamName.localizedCaseInsensitiveContains(searchText) || $0.region.localizedCaseInsensitiveContains(searchText)}
         }
     }
 }

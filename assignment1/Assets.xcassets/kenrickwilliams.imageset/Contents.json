@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "kendrickwilliams.png",
+      "filename" : "kenrickwilliams.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "kendrickwilliams@2x.png",
+      "filename" : "kenrickwilliams@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "kendrickwilliams@3x.png",
+      "filename" : "kenrickwilliams@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

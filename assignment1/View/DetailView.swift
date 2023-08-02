@@ -30,7 +30,7 @@ struct DetailView: View {
                         Text(team.fullDes)
                     }.alignmentGuide(.leading, computeValue: {
                         dimension in dimension[.leading]})
-                    HStack{
+                    HStack(alignment: .firstTextBaseline){
                         Text("Home Court: ")
                         Text(team.stadium.stadiumName)
                     }
@@ -41,10 +41,10 @@ struct DetailView: View {
                             .lineLimit(nil)
                             .frame(width: 250, height: 100)
                     }
-                    MapPopupView(coordinate: team.locationCoordinate)
+                    MapPopupView(team: team)
                         .edgesIgnoringSafeArea(.top)
                         .frame(height: 250)
-                    HStack{
+                    HStack(alignment: .firstTextBaseline){
                         Text("Achievement: ")
                         AchievementView(team: team)
                     }

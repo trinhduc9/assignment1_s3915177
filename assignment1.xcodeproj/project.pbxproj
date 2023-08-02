@@ -31,6 +31,7 @@
 		349349D22A6F82DC002EE24A /* assignment1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349349D12A6F82DC002EE24A /* assignment1UITests.swift */; };
 		349349D42A6F82DC002EE24A /* assignment1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349349D32A6F82DC002EE24A /* assignment1UITestsLaunchTests.swift */; };
 		34960E8D2A6FBCB2003247E8 /* TeamCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34960E8C2A6FBCB2003247E8 /* TeamCard.swift */; };
+		349CB13A2A7A0C5D00312D14 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349CB1392A7A0C5D00312D14 /* MapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		349349D12A6F82DC002EE24A /* assignment1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1UITests.swift; sourceTree = "<group>"; };
 		349349D32A6F82DC002EE24A /* assignment1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		34960E8C2A6FBCB2003247E8 /* TeamCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCard.swift; sourceTree = "<group>"; };
+		349CB1392A7A0C5D00312D14 /* MapAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		34807C762A6FA60D00FDD4A9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				349CB1392A7A0C5D00312D14 /* MapAnnotationView.swift */,
 				347F1C7E2A7777CC00CB9654 /* AchievementView.swift */,
 				347F1C7B2A7777CC00CB9654 /* MapPopupView.swift */,
 				347F1C7C2A7777CC00CB9654 /* PlayerCard.swift */,
@@ -340,6 +343,7 @@
 				347F1C822A7777CC00CB9654 /* PlayerListView.swift in Sources */,
 				347F1C802A7777CC00CB9654 /* MapPopupView.swift in Sources */,
 				34807C752A6FA60000FDD4A9 /* ListView.swift in Sources */,
+				349CB13A2A7A0C5D00312D14 /* MapAnnotationView.swift in Sources */,
 				349349B72A6F82DA002EE24A /* assignment1App.swift in Sources */,
 				347F1C832A7777CC00CB9654 /* AchievementView.swift in Sources */,
 				34807C6B2A6FA5DE00FDD4A9 /* ContentView.swift in Sources */,
