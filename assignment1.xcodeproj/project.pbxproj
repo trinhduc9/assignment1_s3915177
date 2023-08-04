@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340D764F2A7CC74C0098423A /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340D764E2A7CC74C0098423A /* TitleText.swift */; };
 		340DCF032A6F86750073DD0C /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DCF022A6F86750073DD0C /* Team.swift */; };
 		340DCF052A6F868B0073DD0C /* Stadium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DCF042A6F868B0073DD0C /* Stadium.swift */; };
 		340DCF072A6F87760073DD0C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DCF062A6F87760073DD0C /* Player.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		340D764E2A7CC74C0098423A /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
 		340DCF022A6F86750073DD0C /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		340DCF042A6F868B0073DD0C /* Stadium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stadium.swift; sourceTree = "<group>"; };
 		340DCF062A6F87760073DD0C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				34807C6A2A6FA5DE00FDD4A9 /* ContentView.swift */,
 				34960E8C2A6FBCB2003247E8 /* TeamCard.swift */,
 				347F1C852A777ED500CB9654 /* TeamLogoView.swift */,
+				340D764E2A7CC74C0098423A /* TitleText.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				347F1C802A7777CC00CB9654 /* MapPopupView.swift in Sources */,
 				34807C752A6FA60000FDD4A9 /* ListView.swift in Sources */,
 				349CB13A2A7A0C5D00312D14 /* MapAnnotationView.swift in Sources */,
+				340D764F2A7CC74C0098423A /* TitleText.swift in Sources */,
 				349349B72A6F82DA002EE24A /* assignment1App.swift in Sources */,
 				347F1C832A7777CC00CB9654 /* AchievementView.swift in Sources */,
 				34807C6B2A6FA5DE00FDD4A9 /* ContentView.swift in Sources */,

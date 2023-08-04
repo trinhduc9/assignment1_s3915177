@@ -15,22 +15,25 @@ import SwiftUI
 struct PlayerCard: View {
     var player: Player
     var body: some View {
-        VStack {
+        VStack{
+            TitleText(text: player.playerName)
             player.playerImage
                 .resizable()
-                .frame(width: 100, height: 100)
+                .frame(width: 135, height: 100)
                 .foregroundColor(Color.white)
-            Text(player.playerName)
             HStack {
-                Text(String(player.id))
-                Text(player.position)
+                Spacer()
+                TitleText(text: String(player.id))
+                Spacer()
+                TitleText(text: player.position)
+                Spacer()
             }
-        }.frame(width: 150, height: 150)
+        }.frame(width: 150, height: 165)
+            .border(Color.black, width: 1)
     }
 }
 
 struct PlayerCard_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerCard(player: teams[0].roster[0])
-    }
+        PlayerCard(player: teams[0].roster[0])    }
 }

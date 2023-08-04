@@ -40,7 +40,7 @@ struct MapPopupView: View {
     private func setRegion(team: Team) {
         region = MKCoordinateRegion(
             center: team.locationCoordinate,
-            span: MKCoordinateSpan(latitudeDelta: 0.004, longitudeDelta: 0.004)
+            span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
         )
     }
 }

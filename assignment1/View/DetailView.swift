@@ -23,16 +23,21 @@ struct DetailView: View {
                     Text(team.teamName)
                         .bold()
                         .font(.system(size: 30))
+                    Spacer()
+                    Group {
                     TeamLogoView(image: team.image)
                         .frame(maxWidth: .infinity, alignment: .center)
-                    HStack(alignment: .firstTextBaseline) {
-                        Text("Description: ")
+                    Spacer()
+                    
+                        TitleText(text: "Description ")
                         Text(team.fullDes)
-                    }.alignmentGuide(.leading, computeValue: {
-                        dimension in dimension[.leading]})
-                    HStack(alignment: .firstTextBaseline){
-                        Text("Home Court: ")
+                    }
+                    
+                    HStack {
+                        TitleText(text: "Home Court: ")
                         Text(team.stadium.stadiumName)
+                        
+    
                         Image(systemName:"square.and.arrow.up")
                             .foregroundColor(isDark ? .white : .black)
                             .onTapGesture {
@@ -41,18 +46,16 @@ struct DetailView: View {
                                 }
                             }
                     }
-                    HStack(alignment: .firstTextBaseline) {
-                        Text("Court Address: ")
-                        Text(team.stadium.address)
-                    }
-                    
-                    HStack(alignment: .firstTextBaseline){
-                        Text("Achievement: ")
+                    TitleText(text: "Court Address ")
+                    Text(team.stadium.address)
+                    HStack{
+                        TitleText(text: "Achievement: ")
                         AchievementView(team: team)
                     }
+                    TitleText(text: "Players:")
                     PlayerListView(team: team)
                 }
-                .overlay(alignment: .bottom){
+                .overlay{
                     if popupManager.action.isPresented {
                         MapPopupView(team: team){
                             withAnimation {

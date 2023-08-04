@@ -7,7 +7,7 @@
             "address": "1 Warriors Way, San Francisco, CA 94158, United States"
         },
         "shortDes": "Legendary team with a 73-9 record",
-        "fullDes": "This is a long description",
+        "fullDes": "The Golden State Warriors, a legendary NBA franchise based in San Francisco, California, are renowned for their innovative, fast-paced style of play. Led by the dynamic duo of Stephen Curry and Klay Thompson, the \"Splash Brothers,\" they dominated the league with their record-breaking three-point shooting. Under head coach Steve Kerr's guidance, they achieved four NBA championships in 2015, 2017, 2018 and 2022. Beyond their on-court success, the Warriors are committed to community engagement and social justice. As a team with a rich history and a bright future, they continue to captivate fans with their electrifying brand of basketball and impactful presence both on and off the court",
         "region": "Pacific",
         "achievement": [1947, 1956, 1975, 2015, 2017, 2018, 2022] ,
         "roster": [
@@ -56,7 +56,7 @@
             "address": "100 Legends Way, Boston, MA 02114, United States"
         },
         "shortDes": "The only team left from the original NBA",
-        "fullDes": "",
+        "fullDes": "The Boston Celtics, one of the most iconic franchises in NBA history, hail from Boston, Massachusetts. Founded in 1946, the Celtics have a remarkable legacy of success, boasting an unparalleled collection of 17 NBA championships, the most in league history. Led by legends like Bill Russell, Larry Bird, and Paul Pierce, the team's storied history is defined by its commitment to excellence and tradition. The Celtics' signature green and white colors are synonymous with basketball greatness. With a passionate fan base and a reputation for producing top talent, the Celtics remain a force to be reckoned with in the NBA. Their pursuit of championship glory and their place in basketball lore make them a beloved and enduring institution in the world of sports",
         "region": "Atlantic",
         "achievement": [1957, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1968, 1969, 1974, 1976, 1981, 1984, 1986, 2008] ,
         "roster": [
@@ -99,7 +99,7 @@
             "address": "620 Atlantic Ave, Brooklyn, NY 11217, United States"
         },
         "shortDes": "Use to have a superteam",
-        "fullDes": "",
+        "fullDes": "The Brooklyn Nets, based in Brooklyn, New York, are a dynamic and star-studded NBA franchise. Founded in 1967, the team initially played in New Jersey before relocating to Brooklyn in 2012. With a history of highs and lows, the Nets have undergone a resurgence in recent years. Even with elite players like Kevin Durant, Kyrie Irving, and James Harden, they couldn't get through the first round of the playoffs. After an unsuccessful season, the superstar trio has left and the Nets have have to rebuild their team. The team's modern black-and-white color scheme reflects their contemporary style of play and a commitment to success. With a passionate fan base and ambitious goals, the Brooklyn Nets continue to excite basketball enthusiasts worldwide.",
         "region": "Atlantic",
         "achievement": [] ,
         "roster": [
@@ -136,7 +136,7 @@
             "address": "4 Pennsylvania Plaza, New York, NY 10001, United States"
         },
         "shortDes": "A historic franchise",
-        "fullDes": "",
+        "fullDes": "The New York Knicks, one of the oldest and most iconic franchises in the NBA, represent the heart and soul of basketball in New York City. Founded in 1946, the team has a rich history, with two NBA championships to its name. Despite periods of adversity, the Knicks maintain an unwavering and dedicated fan base that fills the historic Madison Square Garden with passion and energy. As they strive to recapture former glory, the Knicks have built a promising roster of talented players, embodying the spirit of the city they represent. With a focus on resilience, hard work, and the desire to bring a championship back to the Big Apple, the New York Knicks continue to be a driving force in the NBA landscape",
         "region": "Atlantic",
         "achievement": [1970, 1973] ,
         "roster": [
@@ -173,7 +173,7 @@
             "address": "3601 S Broad St, Philadelphia, PA 19148, United States"
         },
         "shortDes": "Home of 2023 MVP: Joel Embiid",
-        "fullDes": "",
+        "fullDes": "The Philadelphia 76ers, a storied NBA franchise founded in 1946, proudly bear the name of the city they call home. With a legacy of success and a passionate fan base, the 76ers have three NBA championships to their credit. Led by the 2023 MVP Joel Embiid, the team continues to strive for greatness. Emphasizing a strong defensive identity and teamwork, the 76ers have become formidable contenders in the league. The team's iconic blue, red, and white colors symbolize their commitment to unity and excellence. As they continue to build on their historic legacy, the Philadelphia 76ers aim to bring another championship trophy to the City of Brotherly Love and etch their names in basketball lore",
         "region": "Atlantic",
         "achievement": [1955, 1967, 1983] ,
         "roster": [
@@ -210,7 +210,7 @@
             "address": "40 Bay St., Toronto, ON M5J 2X2, Canada"
         },
         "shortDes": "The only team from the north",
-        "fullDes": "",
+        "fullDes": "The Toronto Raptors, Canada's only NBA team, have captured the hearts of basketball fans worldwide since their inception in 1995. Known for their passionate and dedicated fan base, aptly referred to as \"Raptors Nation,\" the team has achieved significant success. The Raptors' crowning achievement came in 2019 when they clinched their first NBA championship, led by superstar Kawhi Leonard. Their journey has been defined by resilience, teamwork, and a commitment to excellence. Playing in their iconic black, red, and white colors, the Raptors' distinct identity reflects the diverse and vibrant city of Toronto. With a roster of talented players and a hunger for more championships, the Toronto Raptors continue to make their mark on the NBA stage",
         "region": "Atlantic",
         "achievement": [2019] ,
         "roster": [
@@ -284,7 +284,7 @@
             "address": "1 Center Court, Cleveland, OH 44115, United States"
         },
         "shortDes": "The Cavs, won their first championship in 2016 with LeBron James",
-        "fullDes": "",
+        "fullDes": "The Cleveland Cavaliers, affectionately known as the Cavs, are a cherished NBA team that holds a special place in the hearts of Ohioans. Established in 1970, the franchise has seen its fair share of challenges, but they reached new heights in 2016 when they secured their first NBA championship, overcoming a historic 3-1 deficit in the Finals. The Cavs' rise was largely attributed to the extraordinary talents of LeBron James, a hometown hero, who returned to lead the team to victory. Their wine and gold colors symbolize a sense of pride and loyalty among their fans. As the Cavs continue to rebuild and evolve, they remain a resilient force in the NBA, striving to bring more success to their devoted supporters",
         "region": "Central",
         "achievement": [2016] ,
         "roster": [
@@ -321,7 +321,7 @@
             "address": "2645 Woodward Ave, Detroit, MI 48201, United States"
         },
         "shortDes": "Worst team in 2022-2023 season",
-        "fullDes": "",
+        "fullDes": "The Detroit Pistons, a storied NBA franchise founded in 1941, have left an indelible mark on the basketball world. Based in Detroit, Michigan, the Pistons boast a rich history with three NBA championships to their name. Known for their \"Bad Boys\" era in the late 1980s, they embodied a tough and physical style of play led by legends like Isiah Thomas and Bill Laimbeer. Over the years, the Pistons have maintained a strong tradition of competitiveness and tenacity. The team's colors of red, white, and blue reflect their patriotic spirit and commitment to their city. With a talented roster and a passion for success, the Detroit Pistons continue to strive for greatness and leave their mark on the NBA landscape",
         "region": "Central",
         "achievement": [1989, 1990, 2004] ,
         "roster": [
@@ -358,7 +358,7 @@
             "address": "125 S Pennsylvania St, Indianapolis, IN 46204, United States"
         },
         "shortDes": "The only team representing Indiana",
-        "fullDes": "",
+        "fullDes": "The Indiana Pacers, an integral part of the NBA since their inception in 1967, epitomize the spirit of basketball in the Hoosier State. Based in Indianapolis, Indiana, the Pacers have built a legacy of success and competitiveness. Although they haven't won an NBA championship, the team has consistently been a formidable force in the league. Known for their blue and gold colors, the Pacers take pride in their hardworking and blue-collar approach to the game. Through the years, they have fielded a roster of talented players and showcased a commitment to community engagement. The Pacers' loyal fan base and dedication to their craft ensure that they remain a respected and enduring presence in the NBA",
         "region": "Central",
         "achievement": [] ,
         "roster": [
@@ -395,7 +395,7 @@
             "address": "1111 Vel R. Phillips Ave, Milwaukee, WI 53203, United States"
         },
         "shortDes": "Home of the Greek Freak",
-        "fullDes": "",
+        "fullDes": "The Milwaukee Bucks, an iconic NBA franchise, have been a source of pride for the city of Milwaukee, Wisconsin, since their founding in 1968. Boasting a rich history, the Bucks won their second NBA championship in 2021 with the \"Greek Freak\". In recent years, the Bucks continue to show their dominance with Giannis Antetokounmpo, a two-time NBA Most Valuable Player. The team's colors of green and cream mirror the state's heritage and resonate with their passionate fan base. With a blend of talent and determination, the Milwaukee Bucks continue to compete at the highest level, aiming to add more championship glory to their storied legacy.",
         "region": "Central",
         "achievement": [1971, 2021] ,
         "roster": [
@@ -438,7 +438,7 @@
             "address": "1 State Farm Dr, Atlanta, GA 30303, United States"
         },
         "shortDes": "Trae Young carry the team",
-        "fullDes": "",
+        "fullDes": "The Atlanta Hawks, a dynamic NBA team founded in 1946, have been soaring high as the pride of Georgia. The Hawks have a rich history, with a single NBA championship in 1958 when they were based in St. Louis. Over the years, the team has been characterized by exciting and up-tempo play styles. Led by talented players like Dominique Wilkins and Trae Young, the Hawks continue to captivate fans with their skill and determination. Their colors of red, black, and white reflect a bold and modern identity. With a commitment to excellence and a promising young core, the Atlanta Hawks are poised to take flight and compete at the highest level in the NBA",
         "region": "South-east",
         "achievement": [1958] ,
         "roster": [
@@ -475,7 +475,7 @@
             "address": "333 E Trade St, Charlotte, NC 28202, United States"
         },
         "shortDes": "LaMelo who?",
-        "fullDes": "",
+        "fullDes": "The Charlotte Hornets, a beloved NBA team, have been buzzing with energy since their inception in 1988. Representing Charlotte, North Carolina, the Hornets have captured the hearts of their fans with their dedication and passion for the game. Although they have yet to claim an NBA championship, the team has featured remarkable talents like Larry Johnson and Alonzo Mourning, who left a lasting impact on the franchise. With their iconic teal and purple colors, the Hornets symbolize resilience and a strong sense of community. With a fresh and talented roster, including players like LaMelo Ball, the Charlotte Hornets are committed to writing a new chapter of success in their storied journey in the NBA.",
         "region": "South-east",
         "achievement": [] ,
         "roster": [
@@ -512,7 +512,7 @@
             "address": "601 Biscayne Blvd, Miami, FL 33132, United States"
         },
         "shortDes": "The 2023 Eastern Conference Champion",
-        "fullDes": "",
+        "fullDes": "he Miami Heat, a sizzling NBA franchise established in 1988, epitomize the energy and excitement of basketball in South Florida. With three NBA championships in their trophy cabinet, the Heat have forged a legacy of success and determination. Led by iconic players like Dwyane Wade and LeBron James, they achieved back-to-back titles in 2012 and 2013. The Heat's colors of red, black, and white reflect their fiery spirit and fierce competitiveness on the court. Miami's passionate and diverse fan base fills the American Airlines Arena, creating an electrifying atmosphere. With a winning culture and a history of star-studded rosters, the Miami Heat continue to make waves as a perennial contender in the NBA",
         "region": "South-east",
         "achievement": [2006, 2012, 2013] ,
         "roster": [
@@ -555,7 +555,7 @@
             "address": "400 W Church St, Orlando, FL 32801, United States"
         },
         "shortDes": "Shaq's debut",
-        "fullDes": "",
+        "fullDes": "The Orlando Magic, a magical NBA franchise established in 1989, have been enchanting basketball fans in Central Florida for decades. Despite not having an NBA championship to their name, the Magic have captivated audiences with thrilling moments and exceptional players. Legends like Shaquille O'Neal, Penny Hardaway, and Dwight Howard have all left an indelible mark on the team's history. The Magic's blue, black, and white colors symbolize their vibrant and dynamic style of play. With a passionate and dedicated fan base, they create an enchanting atmosphere at the Amway Center. As they continue to build a promising young roster, the Orlando Magic aim to weave a compelling story of success and magic in the NBA",
         "region": "South-east",
         "achievement": [] ,
         "roster": [
@@ -592,7 +592,7 @@
             "address": "601 F St NW, Washington, DC 20004, United States"
         },
         "shortDes": "Michael Jordan's retirement home",
-        "fullDes": "",
+        "fullDes": "The Washington Wizards, a legendary NBA team established in 1961, are a formidable force in the nation's capital. Despite enduring some challenges, the Wizards have showcased their resilience and commitment to excellence. Formerly known as the Bullets, they captured an NBA championship in 1978. Led by prominent players like Wes Unseld, the team etched their names in history. Today, the Wizards featuring Kyle Kuzma and Jordan Poole promises an exciting future. Their red, white, and blue colors represent their patriotic spirit. With a loyal and enthusiastic fan base, the Wizards bring electrifying energy to the Capital One Arena. As they continue to strive for greatness, the Washington Wizards remain an integral part of the NBA landscape",
         "region": "South-east",
         "achievement": [1978] ,
         "roster": [
@@ -629,7 +629,7 @@
             "address": "1000 Chopper Cir, Denver, CO 80204, United States"
         },
         "shortDes": "The 2022-2023 Champion",
-        "fullDes": "",
+        "fullDes": "The Denver Nuggets, a triumphant NBA franchise founded in 1967, have struck gold in 2023, clinching their long-awaited NBA championship. After decades of dedication and hard work, the Nuggets have finally reached the pinnacle of success. Led by the extraordinary talents of Nikola Jokic and a formidable roster, they overcame all obstacles to claim the ultimate victory. Their dynamic and high-scoring style of play, combined with a fervent and unwavering fan base, powered them to greatness. Sporting their navy blue, gold, and white colors with pride, the Nuggets now shine as the reigning champions in the NBA. As they revel in this historic moment, the future looks bright for the Denver Nuggets as they aim to continue their golden reign in the league",
         "region": "North-west",
         "achievement": [2023] ,
         "roster": [
@@ -666,7 +666,7 @@
             "address": "600 N 1st Ave, Minneapolis, MN 55403, United States"
         },
         "shortDes": "A playoff contender team",
-        "fullDes": "",
+        "fullDes": "The Minnesota Timberwolves, a resilient NBA franchise established in 1989, embody the spirit of the North Star State. Despite facing challenges, the Timberwolves boast a promising future with a talented young core. Their blue, green, black, and white colors symbolize a fresh start and growth. Although they haven't secured an NBA championship, the Timberwolves remain determined to reach new heights. The team's history includes remarkable players like Kevin Garnett and Karl-Anthony Towns, who have left a lasting impact on the franchise. With an ardent and supportive fan base, the Timberwolves' journey is a testament to perseverance, and they continue to chase their dream of bringing a championship trophy to Minnesota",
         "region": "North-west",
         "achievement": [] ,
         "roster": [
@@ -703,7 +703,7 @@
             "address": "100 W Reno Ave, Oklahoma City, OK 73102, United States"
         },
         "shortDes": "Used to be a good team",
-        "fullDes": "",
+        "fullDes": "The Oklahoma City Thunder, an electrifying NBA franchise established in 2008, have quickly become a force to be reckoned with. Despite being a relatively young team, they have already made a significant impact in the league. The Thunder's colors of blue, orange, and white reflect their energetic and vibrant style of play. Known for their commitment to developing young talent, they have produced stars like Kevin Durant, Russell Westbrook, and James Harden. Although they haven't clinched an NBA championship, the Thunder's passionate fan base fills the Chesapeake Energy Arena with unwavering support. With a promising roster and a commitment to excellence, the Oklahoma City Thunder's future shines brightly as they continue to rise in the NBA ranks",
         "region": "North-west",
         "achievement": [1979] ,
         "roster": [
@@ -740,7 +740,7 @@
             "address": "1 N Center Ct St, Portland, OR 97227, United States"
         },
         "shortDes": "Known for Damian Lillard only",
-        "fullDes": "",
+        "fullDes": "The Portland Trail Blazers, a legendary NBA franchise founded in 1970, blaze a trail of excellence in the Pacific Northwest. Known for their passionate fan base and storied history, the Blazers have achieved remarkable success, including an NBA championship in 1977. The team's iconic black, red, and white colors symbolize their fierce determination and competitive spirit. Led by stars like Clyde Drexler and Damian Lillard, they have showcased a captivating and high-octane style of play. The Blazers' unwavering commitment to their community and the sport they love makes them a beloved and integral part of Portland's identity. With a talented roster and a desire for greatness, the Portland Trail Blazers continue to light up the NBA with their electrifying performances",
         "region": "North-west",
         "achievement": [1977] ,
         "roster": [
@@ -777,7 +777,7 @@
             "address": "301 S Temple, Salt Lake City, UT 84101, United States"
         },
         "shortDes": "A mid team",
-        "fullDes": "",
+        "fullDes": "The Utah Jazz, a harmonious NBA franchise founded in 1974, play a melodious tune on the basketball court. Known for their rich history and strong tradition, the Jazz have showcased a rhythmic and fluid style of play. With dedicated fans and a passionate basketball community in Utah, the team's navy blue, green, and gold colors reflect their vibrant spirit. Led by stars like Karl Malone, John Stockton, and Donovan Mitchell, the Jazz have made multiple deep playoff runs, but an elusive NBA championship remains their goal. As they continue to hit all the right notes with their dynamic roster and teamwork, the Utah Jazz aspire to compose a triumphant symphony of success in the NBA",
         "region": "North-west",
         "achievement": [] ,
         "roster": [
@@ -814,7 +814,7 @@
             "address": "1111 S Figueroa St, Los Angeles, CA 90015, United States"
         },
         "shortDes": "A strong 22024 NBA championship contender",
-        "fullDes": "",
+        "fullDes": "The LA Clippers, an exciting NBA franchise founded in 1970, are known for their high-flying plays and relentless pursuit of success. Based in Los Angeles, California, the Clippers share the city's basketball spotlight and have built a strong fan base over the years. Although they haven't claimed an NBA championship, the team's iconic red, white, and blue colors symbolize their tenacity and determination. Led by stars like Kawhi Leonard and Paul George, the Clippers have emerged as perennial contenders in the league. With a history of ups and downs, they continue to strive for greatness and aim to carve their place among the NBA's elite, bringing excitement and anticipation to fans every season",
         "region": "Pacific",
         "achievement": [] ,
         "roster": [
@@ -851,7 +851,7 @@
             "address": "1111 S Figueroa St, Los Angeles, CA 90015, United States"
         },
         "shortDes": "Legendary franchise, home of the legendary Black Mamba",
-        "fullDes": "",
+        "fullDes": "The Los Angeles Lakers, a storied NBA franchise established in 1947, are the epitome of basketball greatness. Based in the heart of Hollywood, California, the Lakers have a glittering legacy with a record-breaking 17 NBA championships to their name. Led by basketball icons such as Magic Johnson, Kareem Abdul-Jabbar, Kobe Bryant, and Shaquille O'Neal, they have left an indelible mark on the sport. The Lakers' iconic purple and gold colors symbolize their regal presence and unmatched success. With a passionate and global fan base, the Lakers' pursuit of excellence remains unwavering. As they continue to field superstar talents like LeBron James and Anthony Davis, the Lakers shine brightly as a dominant force in the NBA",
         "region": "Pacific",
         "achievement": [1949, 1950, 1952, 1953, 1954, 1972, 1980, 1982, 1985, 1987, 1988, 2000, 2001, 2002, 2009, 2010, 2020] ,
         "roster": [
@@ -894,7 +894,7 @@
             "address": "201 E Jefferson St, Phoenix, AZ 85004, United States"
         },
         "shortDes": "Got potetial with KD joining",
-        "fullDes": "",
+        "fullDes": "The Phoenix Suns, a scorching NBA franchise founded in 1968, radiate with basketball brilliance in the Arizona desert. Known for their fast-paced and exciting style of play, the Suns have captured the hearts of fans with their vibrant orange and purple colors. Although they've yet to claim an NBA championship, the Suns have a storied history, featuring iconic players like Charles Barkley and Steve Nash. Led by Devin Booker and Deandre Ayton, they have revitalized their roster and made a triumphant return to the playoffs. With a passionate and dedicated fan base, the Suns' future looks brighter than ever as they aspire to bask in the glory of an NBA title and shine as a rising power in the league",
         "region": "Pacific",
         "achievement": [] ,
         "roster": [
@@ -931,7 +931,7 @@
             "address": "500 David J Stern Walk, Sacramento, CA 95814, United States"
         },
         "shortDes": "A surpised run to finish top 3 in Western Conference",
-        "fullDes": "",
+        "fullDes": "The Sacramento Kings, a proud NBA franchise established in 1945, reign over the basketball kingdom of California's capital. Though they haven't secured an NBA championship, the Kings have a rich history of success with a legacy built by legends like Chris Webber and Oscar Robertson. Their purple and black colors symbolize a regal spirit on the court. With a passionate fan base, they fill the Golden 1 Center with energy and enthusiasm. The Kings' journey has had its share of ups and downs, but with a promising young core led by De'Aaron Fox, they are determined to reclaim their former glory and ascend to the throne as NBA champions once again",
         "region": "Pacific",
         "achievement": [1951] ,
         "roster": [
@@ -968,7 +968,7 @@
             "address": "2500 Victory Ave, Dallas, Texas, United States"
         },
         "shortDes": "Upcoming championship contender with the join of Kyrie Irving",
-        "fullDes": "",
+        "fullDes": "The Dallas Mavericks, a dynamic NBA franchise established in 1980, soar as a beacon of basketball brilliance in Texas. With a captivating history, highlighted by an NBA championship in 2011, the Mavericks have built a strong legacy. Led by the legendary Dirk Nowitzki and an innovative owner in Mark Cuban, they revolutionized the game. The team's royal blue, navy, and silver colors signify a modern and tenacious spirit. With a passionate fan base filling the American Airlines Center, the Mavericks continue to compete at the highest level. Guided by rising star Luka Doncic and Kyrie Irving, the Mavericks are destined to leave an indelible mark on the NBA landscape for years to come",
         "region": "South-west",
         "achievement": [2011] ,
         "roster": [
@@ -1005,7 +1005,7 @@
             "address": "1510 Polk St, Houston, TX 77002, United States"
         },
         "shortDes": "Could be good this season",
-        "fullDes": "",
+        "fullDes": "The Houston Rockets, a fiery NBA franchise founded in 1967, have launched a legacy of excellence in Texas. Known for their thrilling and high-flying style of play, the Rockets have soared to new heights in the league. With two NBA championships to their name in 1994 and 1995, they have left an enduring mark on the sport. The team's red and black colors signify their tenacity and determination. Led by stars like Hakeem Olajuwon and James Harden, they have achieved success on the court and captured the hearts of fans. As they embark on a new era with a young and talented roster, the Rockets are poised to continue their mission to reach the stars and claim more NBA glory",
         "region": "South-west",
         "achievement": [1994, 1995] ,
         "roster": [
@@ -1042,7 +1042,7 @@
             "address": "191 Beale St, Memphis, TN 38103, United States"
         },
         "shortDes": "Might improve this season with the join of Marcus Smart",
-        "fullDes": "",
+        "fullDes": "The Memphis Grizzlies, a formidable NBA franchise established in 1995, embody grit and tenacity on the basketball court. Hailing from Tennessee, the Grizzlies have steadily built a reputation as fierce competitors. Though they haven't won an NBA championship, their history is filled with memorable moments and standout players like Marc Gasol and Zach Randolph. The team's navy blue, Beale Street blue, and smoke blue colors reflect their deep connection to Memphis' vibrant culture. With a passionate fan base and a commitment to community engagement, the Grizzlies continue to roar with a talented roster led by stars like Ja Morant. As they embrace their \"Grit and Grind\" mentality, the Grizzlies look to carve a path to greatness in the NBA",
         "region": "South-west",
         "achievement": [] ,
         "roster": [
@@ -1080,7 +1080,7 @@
             "address": "1501 Dave Dixon Dr, New Orleans, LA 70113, United States"
         },
         "shortDes": "The youngest NBA franchise",
-        "fullDes": "",
+        "fullDes": "The New Orleans Pelicans, a rising NBA franchise founded in 2002, soar with a new sense of purpose in the Bayou. Representing the vibrant city of New Orleans, Louisiana, the Pelicans bring a unique blend of excitement and talent to the court. Although they haven't claimed an NBA championship, the Pelicans' young roster, headlined by Zion Williamson, promises a bright future. Their colors of navy blue, gold, and red reflect their energy and determination. With a passionate and loyal fan base, the Pelicans' journey is defined by hope and resilience. As they continue to spread their wings, the New Orleans Pelicans aspire to leave a lasting mark in the NBA and soar to new heights of success",
         "region": "South-west",
         "achievement": [] ,
         "roster": [
@@ -1117,7 +1117,7 @@
             "address": "1 AT&T Center Parkway, San Antonio, TX 78219, United States"
         },
         "shortDes": "Home of the legendary coach Pop",
-        "fullDes": "",
+        "fullDes": "The San Antonio Spurs, a legendary NBA franchise founded in 1967, stand as a model of consistency and excellence in basketball. Hailing from Texas, the Spurs have forged a legacy of success, securing five NBA championships under the guidance of head coach Gregg Popovich. Known for their selfless teamwork and fundamental play, they have been a perennial playoff contender. Their iconic black and silver colors symbolize their no-nonsense approach to the game. With legends like Tim Duncan and Tony Parker leading the way, the Spurs have captured the hearts of fans worldwide. As they transition to a new era, the Spurs' commitment to greatness remains steadfast, and their passion for the sport continues to inspire and impress the NBA community",
         "region": "South-west",
         "achievement": [1999, 2003, 2005, 2007, 2014] ,
         "roster": [
