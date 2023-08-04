@@ -24,6 +24,7 @@ struct Team: Identifiable, Codable{
     var achievement: Array<Int>
     var roster: Array<Player>
     var titleOdds: String
+    var lastStanding: String
     
     var imageName: String
     var image: Image {

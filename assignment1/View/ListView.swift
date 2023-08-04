@@ -28,6 +28,8 @@ struct ListView: View {
     }
     
     var body: some View {
+        
+        
         NavigationView {
             VStack{
                 HStack {
@@ -82,6 +84,7 @@ struct ListView: View {
                     }
                 }
             }
+            
         }
         .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Looking for a specific team?")
         .environment(\.colorScheme, isDark ? .dark : .light)
@@ -95,6 +98,20 @@ struct ListView: View {
         } else {
             return teams.filter { $0.teamName.localizedCaseInsensitiveContains(searchText) || $0.region.localizedCaseInsensitiveContains(searchText)}
         }
+    }
+}
+
+struct HiddenNavigationBar: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+        .navigationBarTitle("", displayMode: .inline)
+        .navigationBarHidden(true)
+    }
+}
+
+extension View {
+    func hiddenNavigationBarStyle() -> some View {
+        modifier( HiddenNavigationBar() )
     }
 }
 

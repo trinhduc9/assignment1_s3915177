@@ -14,6 +14,8 @@ import SwiftUI
 struct DetailView: View {
 
     @EnvironmentObject var popupManager: PopupManager
+
+    
     let isDark: Bool
     var team: Team
     var body: some View {
@@ -34,7 +36,7 @@ struct DetailView: View {
                     }
 
                     HStack(alignment: .firstTextBaseline) {
-                        TitleText(text: "Home Court: ")
+                        TitleText(text: "Home Court:")
                         Text(team.stadium.stadiumName)
                         
     
@@ -51,11 +53,15 @@ struct DetailView: View {
                         Text(team.stadium.address)
                     }
                     HStack(alignment: .firstTextBaseline) {
-                        TitleText(text: "2024 Title Odds: ")
+                        TitleText(text: "2023 Standing:")
+                        Text(team.lastStanding)
+                    }
+                    HStack(alignment: .firstTextBaseline) {
+                        TitleText(text: "2024 Title Odds:")
                         Text(team.titleOdds)
                     }
                     HStack(alignment: .firstTextBaseline) {
-                        TitleText(text: "Achievement: ")
+                        TitleText(text: "Achievement:")
                         AchievementView(team: team)
                     }
                     TitleText(text: "Players:")
@@ -73,12 +79,14 @@ struct DetailView: View {
                 .ignoresSafeArea()
             }.padding(.horizontal)
         }
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct DetailView_Previews: PreviewProvider {
+
     static var previews: some View {
-        DetailView(isDark: false, team: teams[18])
+        DetailView(  isDark: false, team: teams[18])
             .environmentObject(PopupManager())
     }
 }

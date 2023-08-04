@@ -30,14 +30,13 @@ struct WelcomeView: View {
                 Image("logo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 200, height: 200)
+                    .frame(width: 250, height: 250)
                     .shadow(color: Color.black, radius: 20, x: 0, y: 10)
                 Text("Bucket Money")
-                    .font(.title)
+                    .font(.system(size: 36))
                     .fontWeight(.bold)
                 Text("Know your teams, know your bets")
-                    .font(.subheadline)
-                    .foregroundColor(.black)
+                    .font(.system(size: 26))
                 Spacer()
                 Button(action: {
                     active = false
