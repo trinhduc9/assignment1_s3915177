@@ -20,14 +20,13 @@ struct TeamLogoView: View {
             .resizable()
             .aspectRatio(contentMode: .fit)
             .frame(width: 200, height: 200)
-            .clipShape(Circle())
-            .overlay(Circle().stroke(Color(.white),lineWidth: 4))
-            .shadow(radius: 7)
+            .shadow(color: Color(red: 0.4, green: 0.4, blue: 0.9, opacity: 0.9), radius: 10, x: 0, y: 10)
+            
     }
 }
 
 struct TeamLogoView_Previews: PreviewProvider {
     static var previews: some View {
-        TeamLogoView(image: Image("GSWlogo"))
+        TeamLogoView(image: Image("Netslogo"))
     }
 }

@@ -32,8 +32,8 @@ struct DetailView: View {
                         TitleText(text: "Description ")
                         Text(team.fullDes)
                     }
-                    
-                    HStack {
+
+                    HStack(alignment: .firstTextBaseline) {
                         TitleText(text: "Home Court: ")
                         Text(team.stadium.stadiumName)
                         
@@ -41,19 +41,25 @@ struct DetailView: View {
                         Image(systemName:"square.and.arrow.up")
                             .foregroundColor(isDark ? .white : .black)
                             .onTapGesture {
-                                withAnimation {
+                                withAnimation(.spring().delay(0.25)) {
                                     popupManager.present()
                                 }
                             }
                     }
-                    TitleText(text: "Court Address ")
-                    Text(team.stadium.address)
-                    HStack{
+                    HStack(alignment: .firstTextBaseline) {
+                        TitleText(text: "📍")
+                        Text(team.stadium.address)
+                    }
+                    HStack(alignment: .firstTextBaseline) {
+                        TitleText(text: "2024 Title Odds: ")
+                        Text(team.titleOdds)
+                    }
+                    HStack(alignment: .firstTextBaseline) {
                         TitleText(text: "Achievement: ")
                         AchievementView(team: team)
                     }
                     TitleText(text: "Players:")
-                    PlayerListView(team: team)
+                    PlayerListView(team: team, isDark: isDark)
                 }
                 .overlay{
                     if popupManager.action.isPresented {
@@ -72,7 +78,7 @@ struct DetailView: View {
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView(isDark: false, team: teams[0])
+        DetailView(isDark: false, team: teams[18])
             .environmentObject(PopupManager())
     }
 }

@@ -15,13 +15,13 @@ import SwiftUI
 struct PlayerListView: View {
     
     var team: Team
-    
+    let isDark: Bool
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack{
                 ForEach(team.roster) {
                     player in
-                    PlayerCard(player: player)
+                    PlayerCard(isDark: isDark, player: player)
                 }
             }
         }
@@ -31,6 +31,6 @@ struct PlayerListView: View {
 
 struct PlayerListView_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerListView(team: teams[0])
+        PlayerListView(team: teams[0], isDark: true)
     }
 }

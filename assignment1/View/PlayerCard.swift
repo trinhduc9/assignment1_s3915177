@@ -13,6 +13,7 @@
 import SwiftUI
 
 struct PlayerCard: View {
+    let isDark: Bool
     var player: Player
     var body: some View {
         VStack{
@@ -29,11 +30,11 @@ struct PlayerCard: View {
                 Spacer()
             }
         }.frame(width: 150, height: 165)
-            .border(Color.black, width: 1)
+            .border(isDark ? Color.white : Color.black, width: 1)
     }
 }
 
 struct PlayerCard_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerCard(player: teams[0].roster[0])    }
+        PlayerCard( isDark: true, player: teams[0].roster[0])    }
 }
