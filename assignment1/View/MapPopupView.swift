@@ -6,7 +6,7 @@
  Author: Trinh Van Minh Duc
  ID: s3915177
  Created  date: 29/07/2023
- Last modified:
+ Last modified: 31/07/2023
  Acknowledgement: 
  - https://www.youtube.com/watch?v=OaIn7HBlCSk
 */
@@ -33,7 +33,8 @@ struct MapPopupView: View {
             .onAppear {
                 setRegion(team: team)
             }
-        }.overlay(alignment: .topTrailing){
+        }.border(Color.black)
+        .overlay(alignment: .topTrailing){
             close
         }.transition(.move(edge: .bottom))
     }

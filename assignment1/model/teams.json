@@ -44,7 +44,10 @@
                 "playerImageName": "wiggins"
             }
         ],
+        "igURL": "https://www.instagram.com/warriors",
+        "twURL": "https://twitter.com/warriors",
         "imageName": "GSWlogo",
+        "imageDarkName":"GSWlogo",
         "coordinates": {
             "latitude": 37.7680381,
             "longitude": -122.387375112241
@@ -89,7 +92,10 @@
                 "playerImageName": "blakegrif"
             }
         ],
+        "igURL": "https://www.instagram.com/celtics",
+        "twURL": "https://twitter.com/celtics",
         "imageName": "Celticslogo",
+        "imageDarkName":"Celticslogo",
         "coordinates": {
             "latitude": 42.366291,
             "longitude": -71.062630
@@ -128,7 +134,10 @@
                 "playerImageName": "mikalbridges"
             }
         ],
+        "igURL": "https://www.instagram.com/brooklynnets",
+        "twURL": "https://twitter.com/BrooklynNets",
         "imageName": "Netslogo",
+        "imageDarkName":"Netslogo-dark",
         "coordinates": {
             "latitude": 40.683488,
             "longitude": -73.976027
@@ -167,7 +176,10 @@
                 "playerImageName": "juliusrandle"
             }
         ],
+        "igURL": "https://www.instagram.com/nyknicks",
+        "twURL": "https://twitter.com/nyknicks",
         "imageName": "Knickslogo",
+        "imageDarkName":"Knickslogo",
         "coordinates": {
             "latitude": 40.750298,
             "longitude": -73.993324
@@ -206,7 +218,10 @@
                 "playerImageName": "harden"
             }
         ],
+        "igURL": "https://www.instagram.com/sixers",
+        "twURL": "https://twitter.com/sixers",
         "imageName": "76logo",
+        "imageDarkName":"76logo",
         "coordinates": {
             "latitude": 39.905098,
             "longitude": -75.173446
@@ -242,10 +257,13 @@
                 "id": 4,
                 "playerName": "Scottie Barnes",
                 "position": "Foward",
-                "playerImageName": "scottiebarnes"
+                "playerImageName": "scottiesbarnes"
             }
         ],
+        "igURL": "https://www.instagram.com/raptors",
+        "twURL": "https://twitter.com/Raptors",
         "imageName": "Raptorslogo",
+        "imageDarkName":"Raptorslogo",
         "coordinates": {
             "latitude": 43.643499,
             "longitude": -79.379106
@@ -284,7 +302,10 @@
                 "playerImageName": "andredrummond"
             }
         ],
+        "igURL": "https://www.instagram.com/chicagobulls",
+        "twURL": "https://twitter.com/chicagobulls",
         "imageName": "Bullslogo",
+        "imageDarkName":"Bullslogo-dark",
         "coordinates": {
             "latitude": 41.880716,
             "longitude": -87.674604
@@ -323,7 +344,10 @@
                 "playerImageName": "dannygreen"
             }
         ],
+        "igURL": "https://www.instagram.com/cavs",
+        "twURL": "https://twitter.com/cavs",
         "imageName": "Cavlogo",
+        "imageDarkName":"Cavlogo",
         "coordinates": {
             "latitude": 41.496952,
             "longitude": -81.689202
@@ -362,7 +386,10 @@
                 "playerImageName": "isaiahstewart"
             }
         ],
+        "igURL": "https://www.instagram.com/detroitpistons",
+        "twURL": "https://twitter.com/DetroitPistons",
         "imageName": "Pistonslogo",
+        "imageDarkName":"Pistonslogo",
         "coordinates": {
             "latitude": 42.3419422653061,
             "longitude": -83.054360877551
@@ -401,7 +428,10 @@
                 "playerImageName": "mylesturner"
             }
         ],
+        "igURL": "https://www.instagram.com/pacers",
+        "twURL": "https://twitter.com/Pacers",
         "imageName": "Pacerlogo",
+        "imageDarkName":"Pacerlogo",
         "coordinates": {
             "latitude": 39.76399,
             "longitude": -86.155566
@@ -446,7 +476,10 @@
                 "playerImageName": "holiday"
             }
         ],
+        "igURL": "https://www.instagram.com/bucks",
+        "twURL": "https://twitter.com/Bucks",
         "imageName": "Buckslogo",
+        "imageDarkName":"Buckslogo",
         "coordinates": {
             "latitude": 43.045231,
             "longitude": -87.917923
@@ -485,7 +518,10 @@
                 "playerImageName": "pattymills"
             }
         ],
+        "igURL": "https://www.instagram.com/atlhawks",
+        "twURL": "ATLHawks",
         "imageName": "Hawkslogo",
+        "imageDarkName":"Hawkslogo",
         "coordinates": {
             "latitude": 33.757290,
             "longitude": -84.397331
@@ -524,7 +560,10 @@
                 "playerImageName": "nickrichards"
             }
         ],
+        "igURL": "https://www.instagram.com/hornets",
+        "twURL": "hornets",
         "imageName": "Hornetslogo",
+        "imageDarkName":"Hornetslogo",
         "coordinates": {
             "latitude": 35.22503405,
             "longitude": -80.8391368507158
@@ -569,7 +608,10 @@
                 "playerImageName": "lowry"
             }
         ],
+        "igURL": "https://www.instagram.com/miamiheat",
+        "twURL": "https://twitter.com/MiamiHEAT",
         "imageName": "Heatlogo",
+        "imageDarkName":"Heatlogo-dark",
         "coordinates": {
             "latitude": 25.781401,
             "longitude": -80.186969
@@ -608,7 +650,10 @@
                 "playerImageName": "coleanthony"
             }
         ],
+        "igURL": "https://www.instagram.com/orlandomagic",
+        "twURL": "https://twitter.com/OrlandoMagic",
         "imageName": "Magiclogo",
+        "imageDarkName":"Magiclogo-dark",
         "coordinates": {
             "latitude": 28.539247,
             "longitude": -81.383949
@@ -647,7 +692,10 @@
                 "playerImageName": "kylekuzma"
             }
         ],
+        "igURL": "https://www.instagram.com/washwizards",
+        "twURL": "https://twitter.com/WashWizards",
         "imageName": "Wizardslogo",
+        "imageDarkName":"Wizardslogo",
         "coordinates": {
             "latitude": 38.898125,
             "longitude": -77.020963
@@ -686,7 +734,10 @@
                 "playerImageName": "deandrejordan"
             }
         ],
+        "igURL": "https://www.instagram.com/nuggets/",
+        "twURL": "https://twitter.com/nuggets",
         "imageName": "Nuggetslogo",
+        "imageDarkName":"Nuggetslogo",
         "coordinates": {
             "latitude": 39.748664,
             "longitude": -105.00755
@@ -725,7 +776,10 @@
                 "playerImageName": "anthonyedwards"
             }
         ],
+        "igURL": "https://www.instagram.com/timberwolves",
+        "twURL": "Timberwolves",
         "imageName": "Wolveslogo",
+        "imageDarkName":"Wolveslogo",
         "coordinates": {
             "latitude": 44.979455,
             "longitude": -93.27619
@@ -764,7 +818,10 @@
                 "playerImageName": "isaiahjoe"
             }
         ],
+        "igURL": "https://www.instagram.com/okcthunder/",
+        "twURL": "okcthunder",
         "imageName": "OKClogo",
+        "imageDarkName":"OKClogo",
         "coordinates": {
             "latitude": 35.463391,
             "longitude": -97.514594
@@ -803,7 +860,10 @@
                 "playerImageName": "kevinknox"
             }
         ],
+        "igURL": "https://www.instagram.com/trailblazers/",
+        "twURL": "https://twitter.com/trailblazers",
         "imageName": "Blazerslogo",
+        "imageDarkName":"Blazerslogo-dark",
         "coordinates": {
             "latitude": 45.531608,
             "longitude": -122.667285
@@ -842,7 +902,10 @@
                 "playerImageName": "krisdunn"
             }
         ],
+        "igURL": "https://www.instagram.com/utahjazz/",
+        "twURL": "https://twitter.com/utahjazz",
         "imageName": "Jazzlogo",
+        "imageDarkName":"Jazzlogo-dark",
         "coordinates": {
             "latitude": 40.768360,
             "longitude": -111.901550
@@ -881,7 +944,10 @@
                 "playerImageName": "pg"
             }
         ],
+        "igURL": "https://www.instagram.com/laclippers",
+        "twURL": "LAClippers",
         "imageName": "Clipperslogo",
+        "imageDarkName":"Clipperslogo-dark",
         "coordinates": {
             "latitude": 34.043018,
             "longitude": -118.267254
@@ -926,7 +992,10 @@
                 "playerImageName": "dangelo"
             }
         ],
+        "igURL": "https://www.instagram.com/lakers",
+        "twURL": "https://twitter.com/Lakers",
         "imageName": "Lakerslogo",
+        "imageDarkName":"Lakerslogo",
         "coordinates": {
             "latitude": 34.043018,
             "longitude": -118.267254
@@ -965,7 +1034,10 @@
                 "playerImageName": "kd"
             }
         ],
+        "igURL": "https://www.instagram.com/suns/",
+        "twURL": "https://twitter.com/Suns",
         "imageName": "Sunslogo",
+        "imageDarkName":"Sunslogo",
         "coordinates": {
             "latitude": 33.445953,
             "longitude": -112.07145
@@ -1004,7 +1076,10 @@
                 "playerImageName": "harrisonbarnes"
             }
         ],
+        "igURL": "https://www.instagram.com/sacramentokings/",
+        "twURL": "https://twitter.com/SacramentoKings",
         "imageName": "SacKingslogo",
+        "imageDarkName":"SacKingslogo",
         "coordinates": {
             "latitude": 38.5806415,
             "longitude": -121.4996191
@@ -1043,7 +1118,10 @@
                 "playerImageName": "kyrie"
             }
         ],
+        "igURL": "https://www.instagram.com/dallasmavs/",
+        "twURL": "https://twitter.com/dallasmavs    ",
         "imageName": "Mavslogo",
+        "imageDarkName":"Mavslogo",
         "coordinates": {
             "latitude": 32.7905076,
             "longitude": -96.8102721346083
@@ -1082,7 +1160,10 @@
                 "playerImageName": "dillonbrooks"
             }
         ],
+        "igURL": "https://www.instagram.com/houstonrockets",
+        "twURL": "https://twitter.com/HoustonRockets",
         "imageName": "Rocketslogo",
+        "imageDarkName":"Rocketslogo",
         "coordinates": {
             "latitude": 29.75074725,
             "longitude": -95.3622315147709
@@ -1122,7 +1203,10 @@
             }
             
         ],
+        "igURL": "https://www.instagram.com/memgrizz",
+        "twURL": "https://twitter.com/memgrizz",
         "imageName": "Grizzlogo",
+        "imageDarkName":"Grizzlogo",
         "coordinates": {
             "latitude": 35.13824,
             "longitude": -90.050695
@@ -1161,7 +1245,10 @@
                 "playerImageName": "brandoningram"
             }
         ],
+        "igURL": "https://www.instagram.com/pelicansnba",
+        "twURL": "https://twitter.com/PelicansNBA",
         "imageName": "Pelicanslogo",
+        "imageDarkName":"Pelicanslogo",
         "coordinates": {
             "latitude": 29.949030,
             "longitude": -90.082298
@@ -1200,7 +1287,10 @@
                 "playerImageName": "devinvassel"
             }
         ],
+        "igURL": "https://www.instagram.com/spurs",
+        "twURL": "https://twitter.com/spurs",
         "imageName": "Spurslogo",
+        "imageDarkName":"Spurslogo-dark",
         "coordinates": {
             "latitude": 29.4270504,
             "longitude": -98.437507063984

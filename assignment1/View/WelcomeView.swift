@@ -6,7 +6,7 @@
  Author: Trinh Van Minh Duc
  ID: s3915177
  Created  date: 25/07/2023
- Last modified:
+ Last modified: 31/07/2023
  Acknowledgement: Acknowledge the resources that you use here.
 */
 
@@ -16,7 +16,7 @@ import SwiftUI
 struct WelcomeView: View {
     @Binding var active: Bool
     let devName = "Trinh Van Minh Duc"
-    let studentID = "123456"
+    let studentID = "s3915177"
     let program = "Software Engineering"
     @State private var isShowingAlert = false
     var body: some View {
@@ -55,7 +55,7 @@ struct WelcomeView: View {
                 }) {
                     Image(systemName: "info.circle")
                         .font(.title)
-                        .foregroundColor(.black)
+                        .foregroundColor(.white)
                 }
                 .alert(isPresented: $isShowingAlert) {
                     Alert(title: Text("Developer Info"),

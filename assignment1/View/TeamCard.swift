@@ -6,17 +6,18 @@
  Author: Trinh Van Minh Duc
  ID: s3915177
  Created  date: 25/07/2023
- Last modified:
+ Last modified: 05/08/2023
  Acknowledgement: Acknowledge the resources that you use here.
 */
 
 import SwiftUI
 
 struct TeamCard: View {
+    let isDark : Bool
     var team: Team
     var body: some View {
         HStack {
-            team.image
+            (isDark ? team.imageDark : team.image)
                 .resizable()
                 .frame(width: 75, height: 75)
             VStack(alignment: .leading, spacing: 10){
@@ -33,6 +34,6 @@ struct TeamCard: View {
 
 struct TeamCard_Previews: PreviewProvider {
     static var previews: some View {
-        TeamCard(team: teams[0])
+        TeamCard(isDark: false, team: teams[0])
     }
 }

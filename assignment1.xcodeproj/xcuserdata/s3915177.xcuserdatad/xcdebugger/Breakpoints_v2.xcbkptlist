@@ -8,34 +8,19 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "71F7564C-12CF-4164-BBFC-25CD5CAAF687"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "assignment1/View/ListView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "searchResults"
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "71F7564C-12CF-4164-BBFC-25CD5CAAF687 - b780858d764e3a23"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "assignment1.HiddenNavigationBar.body(content: SwiftUI._ViewModifier_Content&lt;assignment1.HiddenNavigationBar&gt;) -&gt; some"
-                  moduleName = "assignment1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/s3915177/Documents/assignment1_s3915177/assignment1/View/ListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "512">
-               </Location>
-               <Location
-                  uuid = "71F7564C-12CF-4164-BBFC-25CD5CAAF687 - 32835b6cff96ecc4"
+                  uuid = "71F7564C-12CF-4164-BBFC-25CD5CAAF687 - 32835b6cff96f363"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,12 +30,27 @@
                   urlString = "file:///Users/s3915177/Documents/assignment1_s3915177/assignment1/View/ListView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "99"
-                  endingLineNumber = "99"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "997">
+               </Location>
+               <Location
+                  uuid = "71F7564C-12CF-4164-BBFC-25CD5CAAF687 - 32835b6cff96f363"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "assignment1.ListView.searchResults.getter : Swift.Array&lt;assignment1.Team&gt;"
+                  moduleName = "assignment1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/s3915177/Documents/assignment1_s3915177/assignment1/View/ListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
                   offsetFromSymbolStart = "1398">
                </Location>
                <Location
-                  uuid = "71F7564C-12CF-4164-BBFC-25CD5CAAF687 - ee27ac68cd165e03"
+                  uuid = "71F7564C-12CF-4164-BBFC-25CD5CAAF687 - ee27ac68cd1641a4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -60,9 +60,24 @@
                   urlString = "file:///Users/s3915177/Documents/assignment1_s3915177/assignment1/View/ListView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "99"
-                  endingLineNumber = "99"
-                  offsetFromSymbolStart = "513">
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "569">
+               </Location>
+               <Location
+                  uuid = "71F7564C-12CF-4164-BBFC-25CD5CAAF687 - ee27ac68cd1641a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (assignment1.Team) -&gt; Swift.Bool in assignment1.ListView.searchResults.getter : Swift.Array&lt;assignment1.Team&gt;"
+                  moduleName = "assignment1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/s3915177/Documents/assignment1_s3915177/assignment1/View/ListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "61">
                </Location>
             </Locations>
          </BreakpointContent>

@@ -6,7 +6,7 @@
  Author: Trinh Van Minh Duc
  ID: s3915177
  Created  date: 25/07/2023
- Last modified:
+ Last modified: 05/08/2023
  Acknowledgement: Acknowledge the resources that you use here.
 */
 import SwiftUI
@@ -28,8 +28,6 @@ struct ListView: View {
     }
     
     var body: some View {
-        
-        
         NavigationView {
             VStack{
                 HStack {
@@ -64,7 +62,7 @@ struct ListView: View {
                         DetailView( isDark: isDark, team: team)
                             .environmentObject(popupManager)
                     } label: {
-                        TeamCard(team: team)
+                        TeamCard(isDark: isDark, team: team)
                     }
                 }
                 .toolbar {
@@ -84,7 +82,6 @@ struct ListView: View {
                     }
                 }
             }
-            
         }
         .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Looking for a specific team?")
         .environment(\.colorScheme, isDark ? .dark : .light)
@@ -96,7 +93,7 @@ struct ListView: View {
         else if searchText.isEmpty {
             return teams
         } else {
-            return teams.filter { $0.teamName.localizedCaseInsensitiveContains(searchText) || $0.region.localizedCaseInsensitiveContains(searchText)}
+            return teams.filter { $0.teamName.lowercased().contains(searchText.lowercased()) }
         }
     }
 }

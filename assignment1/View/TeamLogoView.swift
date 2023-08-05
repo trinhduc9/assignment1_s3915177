@@ -5,8 +5,8 @@
  Assessment: Assignment 1
  Author: Trinh Van Minh Duc
  ID: s3915177
- Created  date: 31/07/2023
- Last modified:
+ Created  date: 29/07/2023
+ Last modified: 31/07/2023
  Acknowledgement: Acknowledge the resources that you use here.
 */
 
@@ -20,7 +20,7 @@ struct TeamLogoView: View {
             .resizable()
             .aspectRatio(contentMode: .fit)
             .frame(width: 200, height: 200)
-            .shadow(color: Color(red: 0.4, green: 0.4, blue: 0.9, opacity: 0.9), radius: 10, x: 0, y: 10)
+            .shadow(color: Color(red: 0.4, green: 0.4, blue: 0.4, opacity: 0.6), radius: 10, x: 0, y: 10)
             
     }
 }

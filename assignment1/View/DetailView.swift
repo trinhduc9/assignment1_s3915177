@@ -6,7 +6,7 @@
  Author: Trinh Van Minh Duc
  ID: s3915177
  Created  date: 25/07/2023
- Last modified:
+ Last modified: 05/08/2023
  Acknowledgement: https://www.youtube.com/watch?v=javFZbCYGfc
 */
 import SwiftUI
@@ -20,52 +20,91 @@ struct DetailView: View {
     var team: Team
     var body: some View {
         ScrollView{
-            ZStack {
+            ZStack(alignment: .center) {
+                VStack{
+                    Spacer()
+                    Image(isDark ? team.imageDarkName : team.imageName)
+                        .resizable()
+                        .opacity(isDark ? 0.2 : 0.1)
+                        .aspectRatio(contentMode: .fit)
+                    Spacer()
+                    Image(isDark ? team.imageDarkName : team.imageName)
+                        .resizable()
+                        .opacity(isDark ? 0.2 : 0.1)
+                        .aspectRatio(contentMode: .fit)
+                    Spacer()
+                    Image(isDark ? team.imageDarkName : team.imageName)
+                        .resizable()
+                        .opacity(isDark ? 0.2 : 0.1)
+                        .aspectRatio(contentMode: .fit)
+                   Spacer()
+                }
                 VStack(alignment: .leading, spacing: 10) {
+                    Group {
                     Text(team.teamName)
                         .bold()
                         .font(.system(size: 30))
                     Spacer()
-                    Group {
-                    TeamLogoView(image: team.image)
+                        TeamLogoView(image: isDark ? team.imageDark : team.image)
                         .frame(maxWidth: .infinity, alignment: .center)
                     Spacer()
                     
-                        TitleText(text: "Description ")
+                        TitleText(text: "Description")
                         Text(team.fullDes)
+                        Spacer()
                     }
-
-                    HStack(alignment: .firstTextBaseline) {
-                        TitleText(text: "Home Court:")
-                        Text(team.stadium.stadiumName)
-                        
-    
-                        Image(systemName:"square.and.arrow.up")
-                            .foregroundColor(isDark ? .white : .black)
-                            .onTapGesture {
-                                withAnimation(.spring().delay(0.25)) {
-                                    popupManager.present()
+                    Group {
+                        TitleText(text: "Home Court")
+                        HStack{
+                            Text(team.stadium.stadiumName)
+                            Image(systemName:"square.and.arrow.up")
+                                .foregroundColor(isDark ? .white : .black)
+                                .onTapGesture {
+                                    withAnimation(.spring()) {
+                                        popupManager.present()
+                                    }
                                 }
-                            }
+                        }
                     }
-                    HStack(alignment: .firstTextBaseline) {
-                        TitleText(text: "📍")
+                    Group{
+                        Text("📍") +
                         Text(team.stadium.address)
+                        Spacer()
                     }
-                    HStack(alignment: .firstTextBaseline) {
-                        TitleText(text: "2023 Standing:")
+                    Group {
+                        TitleText(text: "2023 Standing")
                         Text(team.lastStanding)
+                        Spacer()
                     }
-                    HStack(alignment: .firstTextBaseline) {
-                        TitleText(text: "2024 Title Odds:")
+                    Group {
+                        TitleText(text: "2024 Title Odd")
                         Text(team.titleOdds)
+                        Spacer()
                     }
-                    HStack(alignment: .firstTextBaseline) {
-                        TitleText(text: "Achievement:")
+                    Group {
+                        TitleText(text: "Achievements")
                         AchievementView(team: team)
+                        Spacer()
                     }
-                    TitleText(text: "Players:")
-                    PlayerListView(team: team, isDark: isDark)
+                    Group{
+                        TitleText(text: "Players")
+                        PlayerListView(team: team, isDark: isDark)
+                        Spacer()
+                    }
+                    HStack {
+                        Spacer()
+                        Link(destination: URL(string: team.igURL)!) {
+                            Image(isDark ? "igIcon-dark" : "igIcon")
+                                .resizable()
+                                .frame(width: 35, height: 35)
+                        }
+                        Link(destination: URL(string: team.twURL)!) {
+                            Image(isDark ? "twIcon-dark" : "twIcon")
+                                .resizable()
+                                .frame(width: 35, height: 35)
+                        }
+                        Spacer()
+                    }
                 }
                 .overlay{
                     if popupManager.action.isPresented {
@@ -76,9 +115,14 @@ struct DetailView: View {
                         }
                     }
                 }
+                .onAppear{
+                    if popupManager.action.isPresented {
+                        popupManager.dismiss()
+                    }
+                }
                 .ignoresSafeArea()
-            }.padding(.horizontal)
-        }
+            }
+        }.padding(.horizontal)
         .navigationBarTitleDisplayMode(.inline)
     }
 }
@@ -86,7 +130,7 @@ struct DetailView: View {
 struct DetailView_Previews: PreviewProvider {
 
     static var previews: some View {
-        DetailView(  isDark: false, team: teams[18])
+        DetailView(isDark: false, team: teams[0])
             .environmentObject(PopupManager())
     }
 }

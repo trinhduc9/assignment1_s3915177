@@ -6,7 +6,7 @@
  Author: Trinh Van Minh Duc
  ID: s3915177
  Created  date: 25/07/2023
- Last modified:
+ Last modified: 05/08/2023
  Acknowledgement: Acknowledge the resources that you use here.
 */
 
@@ -25,10 +25,16 @@ struct Team: Identifiable, Codable{
     var roster: Array<Player>
     var titleOdds: String
     var lastStanding: String
+    var igURL: String
+    var twURL: String
     
     var imageName: String
+    var imageDarkName: String
     var image: Image {
         Image(imageName)
+    }
+    var imageDark: Image {
+        Image(imageDarkName)
     }
     
     var coordinates: Coordinates

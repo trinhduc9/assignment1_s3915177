@@ -6,7 +6,7 @@
  Author: Trinh Van Minh Duc
  ID: s3915177
  Created  date: 04/08/2023
- Last modified:
+ Last modified: 05/08/2023
  Acknowledgement: Acknowledge the resources that you use here.
 */
 
@@ -19,6 +19,7 @@ struct TitleText: View {
     var body: some View {
         Text(text)
             .bold()
+            .font(.system(size: 20))
     }
 }
 
