@@ -14,6 +14,7 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
+//team struct
 struct Team: Identifiable, Codable{
     var id: Int
     var teamName: String
@@ -30,6 +31,7 @@ struct Team: Identifiable, Codable{
     
     var imageName: String
     var imageDarkName: String
+    //convert name to image for more convinience use
     var image: Image {
         Image(imageName)
     }

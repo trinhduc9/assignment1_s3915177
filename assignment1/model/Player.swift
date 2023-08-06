@@ -14,6 +14,7 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
+//Struct for the roster
 struct Player: Identifiable, Codable{
     var id: Int
     var playerName: String

@@ -7,7 +7,12 @@
  ID: s3915177
  Created  date: 25/07/2023
  Last modified: 05/08/2023
- Acknowledgement: Acknowledge the resources that you use here.
+ Acknowledgement: 
+ - https://www.youtube.com/watch?v=OaIn7HBlCSk
+ - https://www.youtube.com/watch?v=javFZbCYGfc
+ - https://developer.apple.com/documentation/swiftui
+ - https://www.hackingwithswift.com/quick-start/swiftui/how-to-open-web-links-in-safari
+ - https://stackoverflow.com/questions/57517803/how-to-remove-the-default-navigation-bar-space-in-swiftui-navigationview
 */
 import SwiftUI
 
@@ -19,6 +24,7 @@ struct ListView: View {
     @State private var searchText = ""
     @State private var selectedRegion = "All"
     
+    //Regions for filter
     let regions = ["All", "Pacific", "Atlantic", "Central", "South-east", "South-west", "North-west"]
     var regionsInLine1: [String] {
             Array(regions.prefix(3))
@@ -56,11 +62,11 @@ struct ListView: View {
                         }
                     }
                 }
-                List(searchResults){
+                List(searchResults){ 
                     team in
-                    NavigationLink{
+                    NavigationLink{ //Navigation to detail view
                         DetailView( isDark: isDark, team: team)
-                            .environmentObject(popupManager)
+                            .environmentObject(popupManager) //Pass the popup manager to detailview
                     } label: {
                         TeamCard(isDark: isDark, team: team)
                     }
@@ -83,9 +89,12 @@ struct ListView: View {
                 }
             }
         }
+        //Search bar
         .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Looking for a specific team?")
+        //Pass the dark/light mode status to the whole app
         .environment(\.colorScheme, isDark ? .dark : .light)
     }
+    //Search filter
     var searchResults: [Team] {
         if selectedRegion != "All" {
             return teams.filter { $0.region == selectedRegion }
@@ -97,7 +106,7 @@ struct ListView: View {
         }
     }
 }
-
+//Eliminate the gap of navigation view
 struct HiddenNavigationBar: ViewModifier {
     func body(content: Content) -> some View {
         content
@@ -105,15 +114,12 @@ struct HiddenNavigationBar: ViewModifier {
         .navigationBarHidden(true)
     }
 }
-
+//Eliminate the gap of navigation view
 extension View {
     func hiddenNavigationBarStyle() -> some View {
         modifier( HiddenNavigationBar() )
     }
 }
-
-
-
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {

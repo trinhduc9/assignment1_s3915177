@@ -9,10 +9,16 @@
  Last modified: 02/08/2023
  Acknowledgement: 
  - https://www.youtube.com/watch?v=OaIn7HBlCSk
+ - https://www.youtube.com/watch?v=javFZbCYGfc
+ - https://developer.apple.com/documentation/swiftui
+ - https://www.hackingwithswift.com/quick-start/swiftui/how-to-open-web-links-in-safari
+ - https://stackoverflow.com/questions/57517803/how-to-remove-the-default-navigation-bar-space-in-swiftui-navigationview
 */
 
 import SwiftUI
 
+
+//Customize map pin
 struct MapAnnotationView: View{
 
     var body: some View {

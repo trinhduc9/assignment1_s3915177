@@ -7,18 +7,25 @@
  ID: s3915177
  Created  date: 25/07/2023
  Last modified: 31/07/2023
- Acknowledgement: Acknowledge the resources that you use here.
+ Acknowledgement: 
+ - https://www.youtube.com/watch?v=OaIn7HBlCSk
+ - https://www.youtube.com/watch?v=javFZbCYGfc
+ - https://developer.apple.com/documentation/swiftui
+ - https://www.hackingwithswift.com/quick-start/swiftui/how-to-open-web-links-in-safari
+ - https://stackoverflow.com/questions/57517803/how-to-remove-the-default-navigation-bar-space-in-swiftui-navigationview
 */
 
 
 import SwiftUI
 
 struct WelcomeView: View {
+
+    @State private var isShowingAlert = false
     @Binding var active: Bool
     let devName = "Trinh Van Minh Duc"
     let studentID = "s3915177"
     let program = "Software Engineering"
-    @State private var isShowingAlert = false
+
     var body: some View {
         ZStack{
             Image("welcome-background")
@@ -27,18 +34,21 @@ struct WelcomeView: View {
                 .edgesIgnoringSafeArea(.all)
                 .opacity(0.4)
             VStack {
+                //App logo
                 Image("logo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 250, height: 250)
                     .shadow(color: Color.black, radius: 20, x: 0, y: 10)
+                //App name
                 Text("Bucket Money")
                     .font(.system(size: 36))
                     .fontWeight(.bold)
+                //App slogan
                 Text("Know your teams, know your bets")
                     .font(.system(size: 26))
                 Spacer()
-                Button(action: {
+                Button(action: { //Btn to listview
                     active = false
                 }, label: {
                     Capsule()
@@ -50,6 +60,7 @@ struct WelcomeView: View {
                         .fontWeight(.bold)
                         .foregroundColor(.white))
                 })
+                //Information button
                 Button(action: {
                     isShowingAlert = true
                 }) {
